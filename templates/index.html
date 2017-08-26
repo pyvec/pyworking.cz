@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>PyWorking</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+
+          <h1 class="site-title"><span style="color: #3776ab">Py</span><span style="color: #eb0">Working</span></h1>
+
+          <div class="intro">
+
+            <div class="row">
+
+              <div class="col-md-8">
+
+                <p>
+                  <strong>PyWorking</strong> jsou zhruba jednou měsíčně pořádané celodenní workshopy pro pokročilé začátečníky
+                  v&nbsp;programovacím jazyce <a href="https://python.cz/">Python</a> a příbuzných technologiích.
+                  Každý workshop je na nějaké téma z praxe, dopoledne je přednáška a odpoledne samostatná práci pod vedením zkušených koučů.
+                </p>
+                <p>
+                  <strong>NePyvo</strong> je každotýdenní sraz pro všechny pythonisty a pythonistky v&nbsp;Brně, kterým nestačí Pyvo jednou měsíčně.
+                  (Pyva jsou každoměsíční Python srazy, které mají svůj vlastní web <a href="https://pyvo.cz">pyvo.cz</a>).
+                  Na NePyvu můžete probrat svůj opensource projekt, něco se naučit, nebo si nechat pomoci s&nbsp;domácími úkoly
+                  z&nbsp;kurzu <a href="http://pyladies.cz/">Pyladies</a>.
+                </p>
+                <p>Zúčastnit může kdokoli. Někdy se jednorázově konají i jiné přednášky a meetupy.</p>
+
+              </div>
+              <div class="col-md-4">
+
+                {% macro fb_icon() %}
+                  <img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.png" alt="FB" style="height: 1.2em; margin-bottom: 4px">&nbsp;
+                {% endmacro %}
+
+                {% macro meetup_icon() %}
+                  <img src="/static/icons/meetup_com.png" alt="Meetup.com" style="height: 1.3rem; margin-bottom: 2px; margin-left: -2px">
+                {% endmacro %}
+
+                <h2 style="margin-top: 0">Odkazy</h2>
+
+                <ul>
+                  <li><a href="https://www.facebook.com/groups/PyWorkingPraha/">{{ fb_icon() }} PyWorking Praha</a></li>
+                  <li><a href="https://www.facebook.com/groups/894454654024779/">{{ fb_icon() }} NePyvo Brno</a></li>
+                  <li><a href="https://www.meetup.com/pyladiescz/">{{ meetup_icon() }} Advanced PyLadies &amp; PyWorking &amp; NePyvo Praha, Brno, Ostrava</a></li>
+                </ul>
+
+              </div>
+
+            </div>
+          </div>
+
+          <h2 id="past-events">Proběhlé akce</h2>
+
+          <h3 class="event-title">Květnový <strong>PyWorking:</strong> Internety</h3>
+          20. 5. 2017, MSD IT (Riverview), Praha
+
+
+          <h3 class="event-title">Dubnový <strong>PyWorking:</strong> Databáze a SQL</h3>
+          8. 4. 2017, MSD IT (Riverview), Praha
+
+
+        </div>
+      </div>
+    </div>
+
+
+    {#
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    #}
+  </body>
+</html>

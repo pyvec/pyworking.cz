@@ -1,0 +1,47 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #222;
+}
+
+.site-title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 700;
+    font-size: 49px;
+    color: #444;
+}
+
+strong {
+    font-weight: 700;
+}
+
+p {
+    max-width: 42em;
+}
+
+.intro p, .intro ul, .intro li {
+    margin-bottom: 0.4rem;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
