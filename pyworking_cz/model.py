@@ -1,7 +1,10 @@
 from datetime import date
-import yaml
+from functools import lru_cache
+from markdown2 import markdown
 import os
 from pathlib import Path
+import re
+import yaml
 
 
 here = Path(__file__).resolve().parent
@@ -39,7 +42,20 @@ def _load_event(event_path):
         'title': data['title'],
         'location': data.get('location'),
         'date': _to_date(data['date']) if data.get('date') else None,
+        'description_html': markdown_to_html(data['description']) if data.get('description') else None,
     }
+
+
+@lru_cache()
+def markdown_to_html(text):
+    return markdown(
+        text,
+        extras=[
+            "link-patterns",
+        ],
+        link_patterns=[
+            (re.compile(r'(https?:\/\/[^ \t\n]+)'), r'\1'),
+        ])
 
 
 def _to_date(value):

@@ -6,7 +6,7 @@ ENV PYTHONUNBUFFERED=1 DATA_DIR=/app/data
 
 RUN python3 -m venv /venv
 RUN /venv/bin/pip install -U pip wheel
-RUN /venv/bin/pip install flask gunicorn pyyaml
+RUN /venv/bin/pip install flask gunicorn pyyaml markdown2
 
 COPY setup.py MANIFEST.in /app/
 COPY pyworking_cz /app/pyworking_cz

@@ -1,4 +1,7 @@
 event:
-    title: "Květnový PyWorking: Internety"
+    title: Internety
     date: 2017-05-20
     location: MSD IT (Riverview), Praha
+    authors: Naďa Jašíková, Petr Messner
+    description: |
+        Materiály: https://github.com/pyvec/pyworking-materials/tree/master/170520_Internety

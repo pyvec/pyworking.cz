@@ -1,4 +1,7 @@
 event:
-    title: "Dubnový PyWorking: Databáze a SQL"
+    title: Databáze a SQL
     date: 2017-04-08
     location: MSD IT (Riverview), Praha
+    authors: Peter Varga, Petr Messner
+    description: |
+        Materiály: https://github.com/pyvec/pyworking-materials/tree/master/170408_Databaze

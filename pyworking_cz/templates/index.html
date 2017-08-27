@@ -15,12 +15,18 @@
       {% macro show_event(event) %}
         <div class="event">
             <h3 class="event-title">{{ event.title }}</h3>
-            <p>
+            <p class="event-info">
+                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
                 {{ format_date_cs(event.date)|title }}
                 {% if event.location %}
                   &nbsp; <i class="fa fa-map-marker" aria-hidden="true"></i> {{ event.location }}
                 {% endif %}
             </p>
+            {% if event.description_html %}
+              <div class="event-description">
+                {{ event.description_html|safe }}
+              </div>
+            {% endif %}
         </div>
       {% endmacro %}
 
