@@ -69,17 +69,22 @@
       {% endmacro %}
 
       {% macro github_icon() %}
-      <img src="/static/icons/github.png" alt="Github" style="height: 1.2rem; margin-bottom: 2px">
+      <img src="/static/icons/github.png" alt="Github" style="height: 1.1rem; margin-bottom: 2px">
+      {% endmacro %}
+
+      {% macro python_icon() %}
+      <img src="https://python.cz/static/images/logo-plain.png" alt="" style="height: 1.1rem; margin-bottom: 2px">
       {% endmacro %}
 
 
       <h2 style="margin-top: 0">Odkazy</h2>
 
-      <ul>
-        <li><a href="https://www.facebook.com/groups/PyWorkingPraha/">{{ fb_icon() }} PyWorking Praha</a></li>
-        <li><a href="https://www.meetup.com/pyladiescz/">{{ meetup_icon() }} Advanced PyLadies &amp; PyWorking &amp; NePyvo Praha, Brno, Ostrava</a></li>
-        <li><a href="https://github.com/pyvec/pyworking-materials">{{ github_icon() }} pyworking-materials</a></li>
-      </ul>
+      <div class="links">
+        <p><a href="https://www.facebook.com/groups/PyWorkingPraha/">{{ fb_icon() }} PyWorking Praha</a></p>
+        <p><a href="https://www.meetup.com/pyladiescz/">{{ meetup_icon() }} Advanced PyLadies &amp; PyWorking &amp; NePyvo Praha, Brno, Ostrava</a></p>
+        <p><a href="https://github.com/pyvec/pyworking-materials">{{ github_icon() }} pyworking-materials</a></p>
+        <p><a href="https://python.cz/">{{ python_icon() }} Python.cz</a></p>
+      </div>
 
       <h2>Kontakt</h2>
 
