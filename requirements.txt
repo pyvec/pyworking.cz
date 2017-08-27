@@ -1,1 +1,0 @@
-https://github.com/r0wb0t/markdown-urlize/archive/302ddfd54709e3bf446cac24ce1d2503fa1b2f05.zip#egg=markdown-urlize==0.2.0

@@ -13,6 +13,7 @@ setup(
         'flask',
         'pyyaml',
         'markdown',
+        'markdown-urlize',
     ],
     extras_require={
         'test': ['pytest'],
