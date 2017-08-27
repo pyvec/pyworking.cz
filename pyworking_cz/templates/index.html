@@ -12,16 +12,36 @@
       </p>
       <p>Zúčastnit může kdokoli. Někdy se jednorázově konají i jiné přednášky a meetupy.</p>
 
+      {% macro show_event(event) %}
+        <div class="event">
+            <h3 class="event-title">{{ event.title }}</h3>
+            <p>
+                {{ format_date_cs(event.date)|title }}
+                {% if event.location %}
+                  &nbsp; <i class="fa fa-map-marker" aria-hidden="true"></i> {{ event.location }}
+                {% endif %}
+            </p>
+        </div>
+      {% endmacro %}
+
+      {% if upcoming_events %}
+
+        <h2 id="upcoming-events">Příští akce</h2>
+
+        {% for event in upcoming_events %}
+          {{ show_event(event) }}
+        {% endfor %}
+
+      {% endif %}
 
       <h2 id="past-events">Proběhlé akce</h2>
 
-      <h3 class="event-title">Květnový <strong>PyWorking:</strong> Internety</h3>
-      <p>20. 5. 2017, MSD IT (Riverview), Praha</p>
-
-      <h3 class="event-title">Dubnový <strong>PyWorking:</strong> Databáze a SQL</h3>
-      <p>8. 4. 2017, MSD IT (Riverview), Praha</p>
+      {% for event in past_events %}
+        {{ show_event(event) }}
+      {% endfor %}
 
     </div>
+
     <div class="col-md-4">
 
       {% macro fb_icon() %}

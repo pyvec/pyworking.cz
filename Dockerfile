@@ -2,14 +2,23 @@ FROM python:3.6
 
 MAINTAINER Petr Messner
 
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONUNBUFFERED=1 DATA_DIR=/app/data
 
 RUN python3 -m venv /venv
 RUN /venv/bin/pip install -U pip wheel
-RUN /venv/bin/pip install flask gunicorn
+RUN /venv/bin/pip install flask gunicorn pyyaml
 
-COPY . /app
+COPY setup.py MANIFEST.in /app/
+COPY pyworking_cz /app/pyworking_cz
+
 RUN /venv/bin/pip install /app
+
+COPY data /app/data
+
+RUN apt-get update
+RUN apt-get install tree
+RUN tree -ah /app /venv
+RUN find / | grep _base.html
 
 RUN useradd --no-create-home app
 USER app

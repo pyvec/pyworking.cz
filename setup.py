@@ -10,10 +10,12 @@ setup(
     license='MIT',
     packages=find_packages(exclude=['contrib', 'doc*', 'tests']),
     install_requires=[
-        'flask'
+        'flask',
+        'pyyaml',
     ],
     extras_require={
         'test': ['pytest'],
     },
     include_package_data=True,
+    #package_data={ 'pyworking-cz': ['pyworking_cz/templates/*', 'pyworking_cz/static/*'] },
 )
