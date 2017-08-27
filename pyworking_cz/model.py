@@ -62,6 +62,7 @@ def _markdown_to_html(text):
         ])
     html = html.replace(' v ', ' v&nbsp;')
     html = html.replace(' s ', ' s&nbsp;')
+    html = html.replace(' z ', ' z&nbsp;')
     return html
 
 

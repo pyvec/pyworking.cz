@@ -19,7 +19,7 @@ strong {
 }
 
 p {
-    max-width: 42em;
+    max-width: 50em;
 }
 
 p, ul {
@@ -44,7 +44,10 @@ h2 {
 }
 
 h2.event-list-section-title {
-    color: #069;
+    color: #301;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 19px;
 }
 
 h3 {
@@ -55,20 +58,23 @@ h3 {
 }
 
 h4 {
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 400;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
 h3.event-title {
-    color: #068;
+    font-size: 27px;
+    color: #c01;
     margin-bottom: 10px;
 }
+
 .event-info {
-    color: #404040;
+    color: #663333;
     margin: 12px 0;
     font-weight: 300;
+    font-size: 17px;
 }
 
 .event-description {
