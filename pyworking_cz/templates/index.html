@@ -16,11 +16,21 @@
         <div class="event">
             <h3 class="event-title">{{ event.title }}</h3>
             <p class="event-info">
-                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
-                {{ format_date_cs(event.date)|capitalize }}
-                {% if event.location %}
-                  &nbsp; <i class="fa fa-map-marker" aria-hidden="true"></i> {{ event.location }}
-                {% endif %}
+
+              {# date #}
+              <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              {{ format_date_cs(event.date)|capitalize }}
+
+              {# location #}
+              {% if event.location %}
+                &nbsp; <i class="fa fa-map-marker" aria-hidden="true"></i> {{ event.location }}
+              {% endif %}
+
+              {# authors #}
+              {% if event.authors %}
+                &nbsp; <i class="fa fa-user" aria-hidden="true"></i> {{ event.authors }}
+              {% endif %}
+
             </p>
             {% if event.description_html %}
               <div class="event-description">
