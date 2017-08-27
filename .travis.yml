@@ -1,0 +1,15 @@
+language: "python"
+python:
+    - "3.6"
+cache: "pip"
+install:
+    - "pip install .[tests]"
+script:
+    - "pytest -v"
+deploy:
+    provider: "script"
+    script: "curl -X POST http://pyworking.messa.cz:9000/deploy/pyworking.cz"
+    on:
+        branch: "master"
+        python: "3.6"
+        repo: "pyvec/pyworking.cz"

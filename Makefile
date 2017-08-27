@@ -3,6 +3,9 @@ python3=python3
 flask-run: venv/packages-installed
 	FLASK_APP=pyworking_cz FLASK_DEBUG=1 venv/bin/flask run
 
+check: venv/packages-installed
+	venv/bin/pytest -v tests
+
 venv: venv/packages-installed
 
 venv/packages-installed: setup.py
