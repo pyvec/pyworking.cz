@@ -55,11 +55,14 @@ def _load_event(event_path):
 @lru_cache()
 def _markdown_to_html(text):
     from markdown import markdown
-    return markdown(
+    html = markdown(
         text,
         extensions=[
             'mdx_urlize',
         ])
+    html = html.replace(' v ', ' v&nbsp;')
+    html = html.replace(' s ', ' s&nbsp;')
+    return html
 
 
 def _to_date(value):
