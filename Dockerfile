@@ -15,11 +15,6 @@ RUN /venv/bin/pip install /app
 
 COPY data /app/data
 
-RUN apt-get update
-RUN apt-get install tree
-RUN tree -ah /app /venv
-RUN find / | grep _base.html
-
 RUN useradd --no-create-home app
 USER app
 
