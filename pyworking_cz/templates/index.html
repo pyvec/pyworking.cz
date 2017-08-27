@@ -14,64 +14,61 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-10 offset-md-1">
+        <div class="col-lg-10 offset-lg-1">
 
           <h1 class="site-title"><span style="color: #3776ab">Py</span><span style="color: #eb0">Working</span></h1>
 
-          <div class="intro">
+          <div class="row">
 
-            <div class="row">
+            <div class="col-md-8" style="padding-bottom: 30px">
 
-              <div class="col-md-8">
-
-                <p>
-                  <strong>PyWorking</strong> jsou zhruba jednou měsíčně pořádané celodenní workshopy pro pokročilé začátečníky
-                  v&nbsp;programovacím jazyce <a href="https://python.cz/">Python</a> a příbuzných technologiích.
-                  Každý workshop je na nějaké téma z praxe, dopoledne je přednáška a odpoledne samostatná práci pod vedením zkušených koučů.
-                </p>
-                <p>Zúčastnit může kdokoli. Někdy se jednorázově konají i jiné přednášky a meetupy.</p>
+              <p>
+                <strong>PyWorking</strong> jsou zhruba jednou měsíčně pořádané celodenní workshopy pro pokročilé začátečníky
+                v&nbsp;programovacím jazyce <a href="https://python.cz/">Python</a> a příbuzných technologiích.
+                Každý workshop je na nějaké téma z praxe, dopoledne je přednáška a odpoledne samostatná práci pod vedením zkušených koučů.
+              </p>
+              <p>Zúčastnit může kdokoli. Někdy se jednorázově konají i jiné přednášky a meetupy.</p>
 
 
-                <h2 id="past-events">Proběhlé akce</h2>
+              <h2 id="past-events">Proběhlé akce</h2>
 
-                <h3 class="event-title">Květnový <strong>PyWorking:</strong> Internety</h3>
-                <p>20. 5. 2017, MSD IT (Riverview), Praha</p>
+              <h3 class="event-title">Květnový <strong>PyWorking:</strong> Internety</h3>
+              <p>20. 5. 2017, MSD IT (Riverview), Praha</p>
 
-                <h3 class="event-title">Dubnový <strong>PyWorking:</strong> Databáze a SQL</h3>
-                <p>8. 4. 2017, MSD IT (Riverview), Praha</p>
-
-              </div>
-              <div class="col-md-4">
-
-                {% macro fb_icon() %}
-                  <img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.png" alt="FB" style="height: 1.2em; margin-bottom: 4px">&nbsp;
-                {% endmacro %}
-
-                {% macro meetup_icon() %}
-                  <img src="/static/icons/meetup_com.png" alt="Meetup.com" style="height: 1.3rem; margin-bottom: 2px; margin-left: -2px">
-                {% endmacro %}
-
-                <h2 style="margin-top: 0">Odkazy</h2>
-
-                <ul>
-                  <li><a href="https://www.facebook.com/groups/PyWorkingPraha/">{{ fb_icon() }} PyWorking Praha</a></li>
-                  <li><a href="https://www.meetup.com/pyladiescz/">{{ meetup_icon() }} Advanced PyLadies &amp; PyWorking &amp; NePyvo Praha, Brno, Ostrava</a></li>
-                </ul>
-
-                <h2>Kontakt</h2>
-
-                <p>Organizátoři Praha:</p>
-
-                <ul>
-                  <li>Lenka Matějová</li>
-                  <li>Pavlína Froňková</li>
-                </ul>
-
-                <p>Pište na <a href="mailto:praha@pyladies.cz">praha@pyladies.cz</a></p>
-
-              </div>
+              <h3 class="event-title">Dubnový <strong>PyWorking:</strong> Databáze a SQL</h3>
+              <p>8. 4. 2017, MSD IT (Riverview), Praha</p>
 
             </div>
+            <div class="col-md-4">
+
+              {% macro fb_icon() %}
+                <img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.png" alt="FB" style="height: 1.2em; margin-bottom: 4px">&nbsp;
+              {% endmacro %}
+
+              {% macro meetup_icon() %}
+                <img src="/static/icons/meetup_com.png" alt="Meetup.com" style="height: 1.3rem; margin-bottom: 2px; margin-left: -2px">
+              {% endmacro %}
+
+              <h2 style="margin-top: 0">Odkazy</h2>
+
+              <ul>
+                <li><a href="https://www.facebook.com/groups/PyWorkingPraha/">{{ fb_icon() }} PyWorking Praha</a></li>
+                <li><a href="https://www.meetup.com/pyladiescz/">{{ meetup_icon() }} Advanced PyLadies &amp; PyWorking &amp; NePyvo Praha, Brno, Ostrava</a></li>
+              </ul>
+
+              <h2>Kontakt</h2>
+
+              <p>Organizátoři Praha:</p>
+
+              <ul>
+                <li>Lenka Matějová</li>
+                <li>Pavlína Froňková</li>
+              </ul>
+
+              <p>Pište na <a href="mailto:praha@pyladies.cz">praha@pyladies.cz</a></p>
+
+            </div>
+
           </div>
 
         </div>

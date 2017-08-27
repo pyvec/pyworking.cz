@@ -2,11 +2,12 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 15px;
     color: #222;
+    margin: 2rem 0;
 }
 
 .site-title {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
     font-family: 'Cabin Sketch', cursive;
     font-weight: 700;
     font-size: 49px;
@@ -21,7 +22,8 @@ p {
     max-width: 42em;
 }
 
-.intro p, .intro ul, .intro li {
+p, ul, li {
+    margin-top: 0.4rem;
     margin-bottom: 0.4rem;
 }
 
