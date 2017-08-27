@@ -6,13 +6,10 @@ ENV PYTHONUNBUFFERED 1
 
 RUN python3 -m venv /venv
 RUN /venv/bin/pip install -U pip wheel
-RUN /venv/bin/pip install gunicorn
-
-COPY requirements.txt /app/requirements.txt
-RUN /venv/bin/pip install -r /app/requirements.txt
+RUN /venv/bin/pip install flask gunicorn
 
 COPY . /app
-WORKDIR /app
+RUN /venv/bin/pip install /app
 
 RUN useradd --no-create-home app
 USER app
@@ -25,5 +22,5 @@ CMD [ \
     "--bind", "0.0.0.0:8000", \
     "--preload", \
     "--max-requests", "100", \
-    "pyworking_web:app" \
+    "pyworking_cz:app" \
 ]
