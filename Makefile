@@ -8,9 +8,10 @@ check: venv/packages-installed
 
 venv: venv/packages-installed
 
-venv/packages-installed: setup.py
+venv/packages-installed: setup.py requirements.txt
 	test -d venv || $(python3) -m venv venv
 	venv/bin/pip install -U pip wheel
+	venv/bin/pip install -r requirements.txt
 	venv/bin/pip install -e .[test]
 	touch $@
 

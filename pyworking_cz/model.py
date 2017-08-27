@@ -1,6 +1,5 @@
 from datetime import date
 from functools import lru_cache
-from markdown2 import markdown
 import os
 from pathlib import Path
 import re
@@ -55,13 +54,11 @@ def _load_event(event_path):
 
 @lru_cache()
 def _markdown_to_html(text):
+    from markdown import markdown
     return markdown(
         text,
-        extras=[
-            "link-patterns",
-        ],
-        link_patterns=[
-            (re.compile(r'(https?:\/\/[^ \t\n]+)'), r'\1'),
+        extensions=[
+            'mdx_urlize',
         ])
 
 

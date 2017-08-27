@@ -12,7 +12,7 @@ setup(
     install_requires=[
         'flask',
         'pyyaml',
-        'markdown2',
+        'markdown',
     ],
     extras_require={
         'test': ['pytest'],

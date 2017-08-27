@@ -27,6 +27,15 @@ p, ul {
     margin-bottom: 0.4rem;
 }
 
+code {
+    background: inherit;
+    color: #333;
+    font-family: Terminus, monospace;
+    padding: 0 0.2em;
+    border: none;
+    border-radius: 0;
+}
+
 h2 {
     font-size: 24px;
     font-weight: 300;
