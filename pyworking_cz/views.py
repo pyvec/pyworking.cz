@@ -19,7 +19,8 @@ def index():
 
 _cs_weekdays = 'pondělí úterý středa čtvrtek pátek sobota neděle'.split()
 
+_cs_months_genitiv = '- ledna února března dubna května června července srpna září října listopadu prosince'.split()
 
 def format_date_cs(dt):
     assert isinstance(dt, (date, datetime))
-    return '{} {}. {}. {}'.format(_cs_weekdays[dt.weekday()], dt.day, dt.month, dt.year)
+    return '{} {}. {} {}'.format(_cs_weekdays[dt.weekday()], dt.day, _cs_months_genitiv[dt.month], dt.year)

@@ -15,16 +15,19 @@ body {
 }
 
 strong {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 p {
     max-width: 42em;
 }
 
-p, ul, li {
+p, ul {
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
+}
+
+li {
 }
 
 h2 {
@@ -34,8 +37,12 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h2.event-list-section-title {
+    color: #069;
+}
+
 h3 {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 500;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -46,4 +53,26 @@ h4 {
     font-weight: 400;
     margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+h3.event-title {
+    color: #068;
+    margin-bottom: 10px;
+}
+.event-info {
+    color: #404040;
+    margin: 12px 0;
+    font-weight: 300;
+}
+
+.event-description {
+    font-size: 14px;
+}
+.event-description p {
+}
+.event-description strong {
+    font-weight: 500;
+}
+.event-description :first-child {
+    margin-top: 0;
 }
