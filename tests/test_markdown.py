@@ -13,4 +13,4 @@ def test_markdown_urlize_urls():
 
 def test_markdown_prepositions_nbsp():
     html = markdown_to_html('dotazy v SQL, s daty (v prostředí), a dále')
-    assert html == '<p>dotazy v&nbsp;SQL, s&nbsp;daty (v prostředí), a dále</p>'
+    assert html == '<p>dotazy v&nbsp;SQL, s&nbsp;daty (v&nbsp;prostředí), a dále</p>'
