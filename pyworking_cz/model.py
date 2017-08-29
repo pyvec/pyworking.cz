@@ -1,9 +1,10 @@
 from datetime import date
-from functools import lru_cache
 import os
 from pathlib import Path
 import re
 import yaml
+
+from .util import markdown_to_html
 
 
 here = Path(__file__).resolve().parent
@@ -45,25 +46,11 @@ def _load_event(event_path):
             'title': data['title'],
             'location': data.get('location'),
             'date': _to_date(data['date']) if data.get('date') else None,
-            'description_html': _markdown_to_html(data['description']) if data.get('description') else None,
+            'description_html': markdown_to_html(data['description']) if data.get('description') else None,
             'authors': data.get('authors'),
         }
     except Exception as e:
         raise Exception('Failed to load event from {}: {}'.format(event_path, e)) from e
-
-
-@lru_cache()
-def _markdown_to_html(text):
-    from markdown import markdown
-    html = markdown(
-        text,
-        extensions=[
-            'mdx_urlize',
-        ])
-    html = html.replace(' v ', ' v&nbsp;')
-    html = html.replace(' s ', ' s&nbsp;')
-    html = html.replace(' z ', ' z&nbsp;')
-    return html
 
 
 def _to_date(value):
