@@ -9,7 +9,7 @@ script:
     - "DATA_DIR=$PWD/data pytest -v"
 deploy:
     provider: "script"
-    script: "curl -X POST http://pyworking.messa.cz:9000/deploy/pyworking.cz"
+    script: "curl -X POST http://pyworking.cz:9000/deploy/pyworking.cz"
     on:
         branch: "master"
         python: "3.6"
