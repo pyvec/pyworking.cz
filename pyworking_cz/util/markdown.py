@@ -11,9 +11,6 @@ def markdown_to_html(text):
             'mdx_urlize',
         ])
     html = fix_preposition_nbsp(html)
-    html = html.replace(' v ', ' v&nbsp;')
-    html = html.replace(' s ', ' s&nbsp;')
-    html = html.replace(' z ', ' z&nbsp;')
     return html
 
 
