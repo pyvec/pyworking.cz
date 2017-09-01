@@ -45,7 +45,7 @@ def _load_event(event_path):
         return {
             'title': data['title'],
             'location': data.get('location'),
-            'date': _to_date(data['date']) if data.get('date') else None,
+            'date': _check_date(data['date']) if data.get('date') else None,
             'description_html': markdown_to_html(data['description']) if data.get('description') else None,
             'authors': data.get('authors'),
         }
@@ -53,10 +53,10 @@ def _load_event(event_path):
         raise Exception('Failed to load event from {}: {}'.format(event_path, e)) from e
 
 
-def _to_date(value):
+def _check_date(value):
     if isinstance(value, date):
         return value
     else:
-        # pravděpodobně bude stačit sem jen něco přidat
-        # YAML jinak umí date interpretovat sám
+        # YAML umí date interpretovat sám, takže v tomhle případě se jedná zřejmě
+        # o chybu nebo nějaký jiný formát zápisu
         raise Exception('Not a date: {!r}'.format(value))
