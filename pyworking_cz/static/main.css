@@ -18,6 +18,10 @@ strong {
     font-weight: 600;
 }
 
+a {
+    word-break: break-all;
+}
+
 p {
     max-width: 50em;
 }

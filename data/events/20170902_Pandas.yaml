@@ -37,7 +37,7 @@ event:
 
         **Prerequesites:** Notebook s nainstalovaným python 3, jupyter (ipython notebook) a pandas.
 
-        Jak nainstalovat ipython jupyter notebook: http://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda
+        Jak nainstalovat ipython jupyter notebook: [jupyter.readthedocs.io/en/latest/install.html](http://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda)
         Nebo pomocí `pip install jupyter`
 
         **Poznámky:**
