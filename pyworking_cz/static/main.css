@@ -14,7 +14,7 @@ body {
     color: #444;
 }
 
-strong {
+b, strong {
     font-weight: 600;
 }
 
