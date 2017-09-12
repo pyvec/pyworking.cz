@@ -30,7 +30,7 @@
 
       {% macro show_event(event) %}
         <div class="event">
-            <h3 class="event-title">{{ event.title }}</h3>
+            <h3 class="event-title" id="{{ event.slug }}">{{ event.title }}</h3>
             <p class="event-info">
 
               {# date #}

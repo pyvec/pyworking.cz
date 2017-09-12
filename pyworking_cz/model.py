@@ -48,6 +48,7 @@ def _load_event(event_path):
             'date': _check_date(data['date']) if data.get('date') else None,
             'description_html': markdown_to_html(data['description']) if data.get('description') else None,
             'authors': data.get('authors'),
+            'slug': event_path.with_suffix('').name,
         }
     except Exception as e:
         raise Exception('Failed to load event from {}: {}'.format(event_path, e)) from e
