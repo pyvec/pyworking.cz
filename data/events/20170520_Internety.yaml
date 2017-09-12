@@ -4,4 +4,14 @@ event:
     location: MSD IT, Praha - Smíchov
     authors: Naďa Jašíková, Petr Messner
     description: |
+
+        - Jak se data přenáší po světě a jak se vlastně dostanou na místo určení
+        - Jak velké představují žraloci nebezpečí pro internety
+        - Co je IP adresa a proč je důležitá
+        - Na co potřebujeme DNS
+        - Co je doména a jak ji ochránit před útoky
+        - Proč je důležitý ten zelený zámeček v prohlížeči, když třeba platíme kartou online
+        - Jak můžeme bezpečněji komunikovat
+        - Jak vlastně vypadá hacking, pokud nejste v americkém filmu
+
         Materiály: https://github.com/pyvec/pyworking-materials/tree/master/170520_Internety
