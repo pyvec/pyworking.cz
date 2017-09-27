@@ -42,7 +42,7 @@
 
       {% if upcoming_events %}
 
-        <h2 class="event-list-section-title" id="upcoming-events" style="margin-bottom: -1rem">Příští akce</h2>
+        <h2 class="event-list-section-title" id="upcoming-events">Příští akce</h2>
 
         {% for event in upcoming_events %}
           {{ show_event(event) }}
@@ -52,7 +52,7 @@
 
       <div id="datova_analyza">
 
-        <h2 class="event-list-section-title">Pozvánka</h2>
+        <h2 class="event-list-section-title" id="pozvanka">Pozvánka</h2>
 
         <h3> Datová analýza v Pythonu</h3>
 

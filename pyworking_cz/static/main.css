@@ -51,7 +51,9 @@ h2.event-list-section-title {
     color: #301;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 19px;
+    font-family: Roboto condensed, Roboto, sans-serif;
+    font-size: 20px;
+    margin-bottom: -15px;
 }
 
 h3 {
