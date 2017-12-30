@@ -59,45 +59,7 @@
     </div>
 
     <div class="col-md-4">
-
-      {% macro fb_icon() %}
-        <img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.png" alt="FB" style="height: 1.2em; margin-bottom: 4px">&nbsp;
-      {% endmacro %}
-
-      {% macro meetup_icon() %}
-        <img src="/static/icons/meetup_com.png" alt="Meetup.com" style="height: 1.3rem; margin-bottom: 2px; margin-left: -2px">
-      {% endmacro %}
-
-      {% macro github_icon() %}
-      <img src="/static/icons/github.png" alt="Github" style="height: 1.1rem; margin-bottom: 2px">
-      {% endmacro %}
-
-      {% macro python_icon() %}
-      <img src="https://python.cz/static/images/logo-plain.png" alt="" style="height: 1.1rem; margin-bottom: 2px">
-      {% endmacro %}
-
-
-      <h2 style="margin-top: 0">Odkazy</h2>
-
-      <div class="links">
-        <p><a href="https://www.facebook.com/groups/PyWorkingPraha/">{{ fb_icon() }} PyWorking Praha</a></p>
-        <p><a href="https://www.meetup.com/pyladiescz/">{{ meetup_icon() }} PyWorking Sessions - Praha</a></p>
-        <p><a href="https://github.com/pyvec/pyworking-materials">{{ github_icon() }} pyworking-materials</a></p>
-        <p><a href="https://github.com/pyvec/pyworking.cz">{{ github_icon() }} pyworking.cz</a></p>
-        <p><a href="https://python.cz/">{{ python_icon() }} Python.cz</a></p>
-      </div>
-
-      <h2>Kontakt</h2>
-
-      <p>Organizátoři Praha:</p>
-
-      <ul>
-        <li>Lenka Matějová</li>
-        <li>Pavlína Froňková</li>
-      </ul>
-
-      <p>Pište na <a href="mailto:praha@pyladies.cz">praha@pyladies.cz</a></p>
-
+      {% include '_right_sidebar.html' %}
     </div>
 
   </div>
