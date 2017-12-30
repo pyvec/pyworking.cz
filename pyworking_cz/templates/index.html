@@ -1,65 +1,128 @@
 {% extends "_base.html" %}
 {% block content %}
 
-  <div class="row">
 
-    <div class="col-md-8" style="padding-bottom: 30px">
+  <h1 class="site-title" style='text-align: center'>
+    <span style="color: #3776ab">Py</span><span style="color: #eb0">Working</span>
+  </h1>
+
+
+  <div class='row'>
+
+    <div class='col-md-6'>
+
+      <h2 class='ws-title'>Workshops</h2>
 
       <p>
-        <strong>PyWorking</strong> jsou zhruba jednou měsíčně pořádané celodenní workshopy pro pokročilé začátečníky
+        <strong>PyWorking workshopy</strong> jsou zhruba jednou měsíčně pořádané celodenní workshopy pro pokročilé začátečníky
         v&nbsp;programovacím jazyce <a href="https://python.cz/">Python</a> a příbuzných technologiích.
         Každý workshop je na nějaké téma z&nbsp;praxe, dopoledne je přednáška a odpoledne samostatná práce pod vedením zkušených koučů.
       </p>
-      <p>Zúčastnit může kdokoli. Někdy se jednorázově konají i jiné přednášky a meetupy.</p>
 
-      {% macro show_event(event) %}
-        <div class="event">
-            <h3 class="event-title" id="{{ event.slug }}">{{ event.title }}</h3>
-            <p class="event-info">
+      <h3 class='event-list-title'>Proběhlé workshopy</h3>
 
-              {# date #}
-              <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
-              {{ format_date_cs(event.date)|capitalize }}
-
-              {# location #}
-              {% if event.location %}
-                &nbsp; <i class="fa fa-map-marker" aria-hidden="true"></i> {{ event.location }}
-              {% endif %}
-
-              {# authors #}
-              {% if event.authors %}
-                &nbsp; <i class="fa fa-user" aria-hidden="true"></i> {{ event.authors }}
-              {% endif %}
-
-            </p>
-            {% if event.description_html %}
-              <div class="event-description">
-                {{ event.description_html|safe }}
-              </div>
-            {% endif %}
-        </div>
-      {% endmacro %}
-
-      {% if upcoming_events %}
-
-        <h2 class="event-list-section-title" id="upcoming-events">Příští akce</h2>
-
-        {% for event in upcoming_events %}
-          {{ show_event(event) }}
-        {% endfor %}
-
-      {% endif %}
-
-      <h2 class="event-list-section-title" id="past-events">Proběhlé akce</h2>
-
-      {% for event in past_events %}
-        {{ show_event(event) }}
+      {% for event in past_events[:4] %}
+        <p>
+          <span class='event-title'>
+            <a href='/workshops/{{ event.slug }}'>
+              {{ event.title }}
+            </a>
+          </span>
+          <span class='event-date'>
+            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+            {{ format_date_cs(event.date)|capitalize }}
+          </span>
+        </p>
       {% endfor %}
 
     </div>
 
-    <div class="col-md-4">
-      {% include '_right_sidebar.html' %}
+    <div class='col-md-6'>
+
+      <h2 class='ws-title'>Sessions</h2>
+
+      <p>
+        <strong>PyWorking sessions</strong> jsou jednou za dva týdny &ndash; každé druhé pondělí &ndash;
+        pořádaná setkání začátečníků a pokročilých začátečníků.
+        Můžete na nich:
+      </p>
+      <ul>
+        <li>
+          konzultovat domácí úkoly z&nbsp;kurzu
+          <a href='http://naucse.python.cz/'>naučse.python.cz</a>,
+          <a href='http://www.pyladies.cz/'>Pyladies</a>
+          nebo jakéhokoli jiného kurzu o Pythonu a příbuzných tématech
+        </li>
+        <li>
+          pracovat na open-source anebo komunitních projektech
+        </li>
+      </ul>
+
+      <h3 class='event-list-title'>Příští setkání</h3>
+
+      <p>
+        <span class='event-title'>
+          <a href='https://www.meetup.com/pyladiescz/events/246033724/'>
+            PyWorking session #44
+          </a>
+        </span>
+        <span class='event-date'>
+          <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+          Pondělí 8. ledna 2018
+        </span>
+      </p>
+
+    </div>
+
+  </div>
+
+  <hr style='border-top-color: #333' />
+
+  {% macro fb_icon() %}
+    <img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.png" alt="FB" style="height: 1.2em; margin-bottom: 4px">&nbsp;
+  {% endmacro %}
+
+  {% macro meetup_icon() %}
+    <img src="/static/icons/meetup_com.png" alt="Meetup.com" style="height: 1.3rem; margin-bottom: 2px; margin-left: -2px">
+  {% endmacro %}
+
+  {% macro github_icon() %}
+    <img src="/static/icons/github.png" alt="Github" style="height: 1.1rem; margin-bottom: 2px">
+  {% endmacro %}
+
+  {% macro python_icon() %}
+    <img src="https://python.cz/static/images/logo-plain.png" alt="" style="height: 1.1rem; margin-bottom: 2px">
+  {% endmacro %}
+
+  <div class='row'>
+
+    <div class='col-md-3 offset-md-3'>
+
+      <h2 style="margin-top: 1ex">Odkazy</h2>
+
+      <div class="links">
+        <p><a href="https://www.facebook.com/groups/PyWorkingPraha/">{{ fb_icon() }} PyWorking Praha</a></p>
+        <p><a href="https://www.meetup.com/pyladiescz/">{{ meetup_icon() }} PyWorking Sessions - Praha</a></p>
+        <p><a href="https://github.com/pyvec/pyworking-materials">{{ github_icon() }} pyworking-materials</a></p>
+        <p><a href="https://github.com/pyvec/pyworking.cz">{{ github_icon() }} pyworking.cz</a></p>
+        <p><a href="https://python.cz/">{{ python_icon() }} Python.cz</a></p>
+      </div>
+
+    </div>
+
+    <div class='col-md-3'>
+
+      <h2 style="margin-top: 1ex">Kontakt</h2>
+
+      <p>Organizátoři Praha:</p>
+
+      <ul>
+        <li>Lenka Matějová</li>
+        <li>Pavlína Froňková</li>
+      </ul>
+
+      <p>Pište na <a href="mailto:praha@pyladies.cz">praha@pyladies.cz</a></p>
+
     </div>
 
   </div>

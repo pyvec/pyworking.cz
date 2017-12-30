@@ -7,11 +7,40 @@ body {
 
 .site-title {
     margin-top: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0rem;
     font-family: 'Cabin Sketch', cursive;
     font-weight: 700;
     font-size: 49px;
     color: #444;
+}
+
+h2.ws-title {
+  font-family: Cabin;
+  font-weight: 700;
+  font-size: 31px;
+  text-align: center;
+}
+
+h3.event-list-title {
+  color: #301;
+  font-weight: 500;
+  font-family: Roboto condensed, Roboto, sans-serif;
+  font-size: 16px;
+  margin-bottom: 0.8rem;
+}
+
+span.event-title {
+  font-weight: 700;
+}
+span.event-title,
+span.event-title a {
+  color: #c01;
+}
+
+span.event-date {
+  margin-left: 1ex;
+  color: #808080;
+  font-size: 14px;
 }
 
 b, strong {
