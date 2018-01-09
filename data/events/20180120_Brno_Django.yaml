@@ -1,0 +1,32 @@
+event:
+    title: Blog podle Django Girls
+    date: 2018-01-20
+    location: FI MUNI, Brno
+    authors: Petr Viktorin
+    description: |
+
+        Workshop pro ty, kdo umí Python zhruba na úrovni [začátečnického kurzu pro PyLadies](http://naucse.python.cz/course/pyladies/) a chtějí se začít učit jak dělat weby.
+
+        [Django](https://www.djangoproject.com/) je nástroj na vytváření webových aplikací.
+        Workshopy [Django Girls](https://djangogirls.org/) jsou jednodenní akce, na kterých si začátečnice
+        vytvoří a zprovozní vlastní aplikaci (blog), a potkají se tak s Pythonem
+        a webovými technologiemi jako HTML, CSS, databáze a ORM.
+
+        My už základy Pythonu umíme, tak přeskočíme úvod a půjdeme trochu víc do hloubky.
+
+        Co se hodí umět:
+
+        * Python na úrovni [začátečnického kurzu](http://naucse.python.cz/course/pyladies/)
+
+        Co mít v notebooku:
+
+        * Python 3
+        * Oblíbený editor/IDE na psaní Pythonu, například ATOM
+        * Git
+        * \+ účty na https://github.com a na https://pythonanywhere.com/
+
+        Budeme rádi, když donesete drobné občerstvení pro kouče a lektora :-)
+
+        Materiály: https://tutorial.djangogirls.org/
+
+        Přihlašovací formulář: https://docs.google.com/forms/d/e/1FAIpQLScanJWt2-afnwmJd2FwPfTDzeYDoPSqohxZdc8SP0-i1LDSjw/viewform
