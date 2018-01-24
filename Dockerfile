@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.6-alpine
 
 MAINTAINER Petr Messner
 
@@ -15,7 +15,7 @@ RUN /venv/bin/pip install /app
 
 COPY data /app/data
 
-RUN useradd --no-create-home app
+RUN adduser -S app
 USER app
 
 EXPOSE 8000
