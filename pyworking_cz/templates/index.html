@@ -53,6 +53,10 @@
             <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
             {{ format_date_cs(event.date)|capitalize }}
           </span>
+          <span class='event-location'>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            {{ event.city }}
+          </span>
         </p>
       {% endfor %}
 
@@ -112,6 +116,10 @@
         <span class='event-date'>
           <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
           Pondělí 8. ledna 2018
+        </span>
+        <span class='event-location'>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          Praha
         </span>
       </p>
 

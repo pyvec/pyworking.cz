@@ -2,5 +2,6 @@ event:
     title: Django blog
     date: 2016-12-10
     authors: Jakub Vysoký, Aleš Zoulek
+    location: Praha
     description: |
         Materiály: https://github.com/kvbik/prvniblog

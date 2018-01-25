@@ -2,5 +2,6 @@ event:
     title: Django Polls
     date: 2017-01-28
     authors: Jakub Vysoký, Aleš Zoulek
+    location: Praha
     description: |
         Kurz probíhal podle tutoriálu https://docs.djangoproject.com/en/1.11/intro/tutorial01/

@@ -1,4 +1,5 @@
 from datetime import date
+import logging
 import os
 from pathlib import Path
 import re
@@ -9,6 +10,8 @@ from .util import markdown_to_html
 
 here = Path(__file__).resolve().parent
 project_dir = here.parent
+
+logger = logging.getLogger(__name__)
 
 
 def get_data_dir():
@@ -45,6 +48,7 @@ def _load_event(event_path):
         return {
             'title': data['title'],
             'location': data.get('location'),
+            'city': data.get('city') or get_city_from_location(data.get('location')),
             'date': _check_date(data['date']) if data.get('date') else None,
             'description_html': markdown_to_html(data['description']) if data.get('description') else None,
             'authors': data.get('authors'),
@@ -52,6 +56,16 @@ def _load_event(event_path):
         }
     except Exception as e:
         raise Exception('Failed to load event from {}: {}'.format(event_path, e)) from e
+
+
+def get_city_from_location(location):
+    if not location:
+        return None
+    for k in 'Praha', 'Brno':
+        if k in location:
+            return k
+    logger.warning('Could not get city from location %r', location)
+    return None
 
 
 def _check_date(value):

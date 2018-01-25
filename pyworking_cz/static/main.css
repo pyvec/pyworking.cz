@@ -37,7 +37,8 @@ span.event-title a {
   color: #c01;
 }
 
-span.event-date {
+span.event-date,
+span.event-location {
   margin-left: 1ex;
   color: #808080;
   font-size: 14px;
