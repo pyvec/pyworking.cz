@@ -124,3 +124,7 @@ h3.event-title {
 .event-description :first-child {
     margin-top: 0;
 }
+
+ul.relaxed > li {
+  margin-top: 7px;
+}
