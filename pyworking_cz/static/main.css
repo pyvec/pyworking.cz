@@ -100,6 +100,19 @@ h4 {
     margin-bottom: 1rem;
 }
 
+button.btn {
+  font-size: 15px;
+}
+
+button.btn.btn-show-more-events {
+  color: #c01;
+  border-color: #c01;
+  background-color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 3px 9px;
+}
+
 h3.event-title {
     font-size: 27px;
     color: #c01;
