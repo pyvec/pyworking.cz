@@ -2,7 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 15px;
     color: #222;
-    margin: 2rem 0;
+    margin-bottom: 5rem;
 }
 
 .site-title {
@@ -12,6 +12,10 @@ body {
     font-weight: 700;
     font-size: 49px;
     color: #444;
+}
+
+.site-title a, .site-title a:hover {
+  text-decoration: none;
 }
 
 h2.ws-title {
@@ -33,10 +37,12 @@ span.event-title {
   font-weight: 700;
 }
 span.event-title,
-span.event-title a {
+span.event-title a,
+h1.event-title {
   color: #c01;
 }
 
+span.event-type,
 span.event-date,
 span.event-location {
   margin-left: 1ex;
@@ -68,6 +74,11 @@ code {
     padding: 0 0.2em;
     border: none;
     border-radius: 0;
+}
+
+h1 {
+  font-family: Cabin;
+  font-weight: 700;
 }
 
 h2 {
@@ -113,12 +124,6 @@ button.btn.btn-show-more-events {
   padding: 3px 9px;
 }
 
-h3.event-title {
-    font-size: 27px;
-    color: #c01;
-    margin-bottom: 10px;
-}
-
 .event-info {
     color: #663333;
     margin: 12px 0;
@@ -140,4 +145,8 @@ h3.event-title {
 
 ul.relaxed > li {
   margin-top: 7px;
+}
+
+.center {
+  text-align: center;
 }

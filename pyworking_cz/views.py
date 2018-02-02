@@ -1,5 +1,5 @@
 from datetime import date, datetime
-from flask import Blueprint, render_template
+from flask import Blueprint, abort, redirect, render_template
 
 from .model import load_events
 
@@ -15,6 +15,24 @@ def index():
         format_date_cs=format_date_cs,
         upcoming_events=[ev for ev in events if ev['date'] >= today],
         past_events=[ev for ev in events if ev['date'] < today])
+
+
+@bp.route('/workshops/')
+def workshops_index():
+    return redirect('/')
+
+
+@bp.route('/workshops/<slug>')
+def workshop_detail(slug):
+    events = load_events()
+    try:
+        event, = [e for e in events if e['slug'] == slug]
+    except ValueError:
+        abort(404)
+    return render_template('workshop.html',
+        event=event,
+        format_date_cs=format_date_cs)
+
 
 
 _cs_weekdays = 'pondělí úterý středa čtvrtek pátek sobota neděle'.split()

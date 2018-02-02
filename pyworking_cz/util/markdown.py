@@ -1,4 +1,5 @@
 from functools import lru_cache
+from jinja2 import Markup
 from markdown import markdown
 import re
 
@@ -11,7 +12,7 @@ def markdown_to_html(text):
             'mdx_urlize',
         ])
     html = fix_preposition_nbsp(html)
-    return html
+    return Markup(html)
 
 
 def fix_preposition_nbsp(html):

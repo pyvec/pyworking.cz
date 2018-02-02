@@ -1,0 +1,47 @@
+{% extends "_base.html" %}
+{% block content %}
+
+  <div class="site-title" style='text-align: center; margin-top: 80px'>
+    <a href='/'>
+      <span style="color: #3776ab">Py</span><span style="color: #eb0">Working</span>
+    </a>
+  </div>
+
+  {#
+  <h2 style='max-width: 600px; text-align: center; margin: 24px auto; line-height: 1.6;'>
+    Pyworkingy jsou setkání Pythonistů začátečníků, kteří se chtějí učit nové věci nebo se zdokonalovat v&nbsp;základech.
+    Pořádáme tématické celodenní Workshopy s&nbsp;připravenou výukou, ale také čtrnáctidenní Sessions pro samostudium za dozoru koučů.
+  </h2>
+  #}
+
+  <br>
+
+  <div class='row'>
+
+    <div class='col-md-8 offset-md-2'>
+
+      <h1 class='event-title center'><span>{{ event['title'] }}</span></h1>
+
+      <p class='center'>
+        <span class='event-type' style="margin-left: 0">
+          Workshop
+        </span>
+        <span class='event-date'>
+          <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+          {{ format_date_cs(event.date)|capitalize }}
+        </span>
+        <span class='event-location'>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          {{ event.city }}
+        </span>
+      </p>
+
+      <br>
+
+      <div class="event-description">
+        {{ event['description_html'] }}
+      </div>
+
+    </di>
+
+{% endblock %}
