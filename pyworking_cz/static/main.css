@@ -34,7 +34,7 @@ h3.event-list-title {
 }
 
 span.event-title {
-  font-weight: 700;
+  font-weight: 600;
 }
 span.event-title,
 span.event-title a,
@@ -122,6 +122,11 @@ button.btn.btn-show-more-events {
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 3px 9px;
+}
+
+button.btn.btn-show-more-events:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(204, 0, 17, 0.25);
 }
 
 .event-info {
