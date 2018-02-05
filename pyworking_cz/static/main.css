@@ -115,7 +115,8 @@ button.btn {
   font-size: 15px;
 }
 
-button.btn.btn-show-more-events {
+button.btn.btn-show-more-events,
+.btn.btn-back {
   color: #c01;
   border-color: #c01;
   background-color: white;
@@ -124,7 +125,8 @@ button.btn.btn-show-more-events {
   padding: 3px 9px;
 }
 
-button.btn.btn-show-more-events:focus {
+button.btn.btn-show-more-events:focus,
+.btn.btn-back:focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(204, 0, 17, 0.25);
 }
