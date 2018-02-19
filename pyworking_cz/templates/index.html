@@ -126,19 +126,25 @@
         <img src='/static/akamai-logo.png' alt='Akamai' style='height: 60px'>
       </div>
 
-      <p>
-        <span class='event-title'>
-          <a href='https://www.meetup.com/pyladiescz/events/grntcpyxdbhb/'>PyWorking session #46</a>
-        </span>
-        <span class='event-date'>
-          <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
-          Pondělí 5. února 2018
-        </span>
-        <span class='event-location'>
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
-          Praha
-        </span>
-      </p>
+      {% macro meetup(url, title, date) %}
+        <p>
+          <span class='event-title'>
+            <a href='{{ url }}'>{{ title }}</a>
+          </span>
+          <span class='event-date'>
+            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+            {{ date }}
+          </span>
+          <span class='event-location'>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            Praha
+          </span>
+        </p>
+      {% endmacro %}
+
+      {{ meetup('https://www.meetup.com/pyladiescz/events/247252403/', 'PyWorking session #48', 'Pondělí 5. března 2018') }}
+      {{ meetup('https://www.meetup.com/pyladiescz/events/247252464/', 'PyWorking session #49', 'Pondělí 19. března 2018') }}
+      {{ meetup('https://www.meetup.com/pyladiescz/events/247252535/', 'PyWorking session #50', 'Pondělí 2. dubna 2018') }}
 
       <h2>Odkazy &ndash; sessions</h2>
 
