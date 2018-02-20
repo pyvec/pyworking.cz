@@ -1,5 +1,5 @@
 from datetime import date, datetime
-from flask import Blueprint, abort, redirect, render_template
+from flask import Blueprint, abort, redirect, render_template, url_for
 
 from .model import load_events
 
@@ -25,14 +25,31 @@ def workshops_index():
 @bp.route('/workshops/<slug>')
 def workshop_detail(slug):
     events = load_events()
-    try:
-        event, = [e for e in events if e['slug'] == slug]
-    except ValueError:
+    event, exact = find_event_by_slug(events, slug)
+    if not event:
         abort(404)
+    if not exact:
+        return redirect(url_for('.workshop_detail', slug=event['slug']))
     return render_template('workshop.html',
         event=event,
         format_date_cs=format_date_cs)
 
+
+def find_event_by_slug(events, slug):
+    '''
+    Try to find the event matching the slug.
+    Returns tuple (event, exact_match).
+    Where exact_match is True only if event slug == slug (from parameters).
+    '''
+    for e in events:
+        if e['slug'] == slug:
+            return e, True
+    # ok, no event has the same slug, try again but case-insensitive
+    for e in events:
+        if e['slug'].lower() == slug.lower():
+            return e, False
+    # no event found
+    return None, None
 
 
 _cs_weekdays = 'pondělí úterý středa čtvrtek pátek sobota neděle'.split()
