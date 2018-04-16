@@ -14,6 +14,7 @@ setup(
         'pyyaml',
         'markdown',
         'markdown-urlize',
+        'requests',
     ],
     extras_require={
         'test': ['pytest'],

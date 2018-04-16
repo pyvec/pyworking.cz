@@ -56,17 +56,17 @@
         </p>
       {% endmacro %}
 
-      {% if upcoming_events %}
+      {% if upcoming_workshop_events %}
 
         <h3 class='event-list-title'>
-          {% if upcoming_events|length == 1 %}
+          {% if upcoming_workshop_events|length == 1 %}
             Příští workshop
           {% else %}
             Příští workshopy
           {% endif %}
         </h3>
 
-        {% for event in upcoming_events %}
+        {% for event in upcoming_workshop_events %}
           {{ show_event(event) }}
         {% endfor %}
 
@@ -74,7 +74,7 @@
 
       <h3 class='event-list-title'>Proběhlé workshopy</h3>
 
-      {% for event in past_events[:4] %}
+      {% for event in past_workshop_events[:4] %}
         {{ show_event(event) }}
       {% endfor %}
 
@@ -86,7 +86,7 @@
         class="btn btn-show-more-events">Zobrazit všechny předchozí</button>
 
       <div class="collapse" id='remainingWorkshopEvents'>
-        {% for event in past_events[4:] %}
+        {% for event in past_workshop_events[4:] %}
           {{ show_event(event) }}
         {% endfor %}
       </div>
@@ -142,10 +142,10 @@
         <img src='/static/akamai-logo.png' alt='Akamai' style='height: 60px'>
       </div>
 
-      {% macro meetup(url, title, date) %}
+      {% macro meetup(url, title, date, city) %}
         <p>
           <span class='event-title'>
-            <a href='{{ url }}'>{{ title }}</a>
+            <a href='{{ url }}' target="_blank">{{ title }}</a>
           </span>
           <span class='event-date'>
             <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
@@ -153,13 +153,14 @@
           </span>
           <span class='event-location'>
             <i class="fa fa-map-marker" aria-hidden="true"></i>
-            Praha
+            {{ city }}
           </span>
         </p>
       {% endmacro %}
 
-      {{ meetup('https://www.meetup.com/pyladiescz/events/247252464/', 'PyWorking session #49', 'Pondělí 19. března 2018') }}
-      {{ meetup('https://www.meetup.com/pyladiescz/events/247252535/', 'PyWorking session #50', 'Pondělí 2. dubna 2018') }}
+      {% for event in upcoming_session_events %}
+        {{ meetup(event.url, event.title, format_date_cs(event.date), event.city_cs) }}
+      {% endfor %}
 
       <h2>Odkazy &ndash; sessions</h2>
 

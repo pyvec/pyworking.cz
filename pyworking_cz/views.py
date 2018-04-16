@@ -1,6 +1,7 @@
 from datetime import date, datetime
 from flask import Blueprint, abort, redirect, render_template, url_for
 
+from .meetup_com import retrieve_workshop_events
 from .model import load_events
 
 
@@ -13,8 +14,9 @@ def index():
     today = datetime.now().date()
     return render_template('index.html',
         format_date_cs=format_date_cs,
-        upcoming_events=[ev for ev in events if ev['date'] >= today],
-        past_events=[ev for ev in events if ev['date'] < today])
+        upcoming_session_events=retrieve_workshop_events(),
+        upcoming_workshop_events=[ev for ev in events if ev['date'] >= today],
+        past_workshop_events=[ev for ev in events if ev['date'] < today])
 
 
 @bp.route('/workshops/')
