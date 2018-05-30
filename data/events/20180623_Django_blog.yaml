@@ -4,28 +4,28 @@ event:
     location: Apiary, Pernerova 49, Praha 8 - Karlín
     authors: Radka Planková a Eliška Doktorová
     description: |
-    
+
         Umíš základy programování a přemýšlíš, že by tě bavila tvorba webových stránek a aplikací? Absolvovala jsi začátečnický kurz PyLadies, ráda by sis rozšířila obzory a naučila se něco nového, co použiješ v praxi?
-        
-        Tento workshop je pro všechny, kteří jsou pokročilejší začátečníci - zhruba na úrovni absolventek začátečnického kurzu PyLadies a chtějí začít s tvorbou webových stránek. Django je webový nástroj napsaný v jazyce Python, pomocí kterého budeme vytvářet webovou aplikaci – blog. Během workshopu se naučíš, jak blog vytvořit a zprovoznit online, aby se dostal do světa 😊.
-        
+
+        Tento workshop je pro všechny, kteří jsou pokročilejší začátečníci - zhruba na úrovni absolventek začátečnického kurzu PyLadies a chtějí začít s tvorbou webových stránek. Django je webový nástroj napsaný v jazyce Python, pomocí kterého budeme vytvářet webovou aplikaci – blog. Během workshopu se naučíš, jak blog vytvořit a zprovoznit online, aby se dostal do světa.
+
         Co mít v notebooku před workshopem již nainstalováno a připraveno:
-        
+
         - Python 3
         - Editor (ATOM, IDE..)
         - Git
-        . Účet na [Github.com](https://github.com) a [PythonAnywhere.com](https://pythonanywhere.com/)
+        - Účet na [Github.com](https://github.com) a [PythonAnywhere.com](https://pythonanywhere.com/)
 
         Materiály: https://tutorial.djangogirls.org/
-        
+
         Přihlašovací formulář: https://goo.gl/forms/Law23NWEtaCRUfGU2
-        
+
         FB událost: https://www.facebook.com/events/286445045229761/
-        
+
         Workshop je zdarma, budeme však rádi, pokud donesete drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžete s ostatními podělit.
 
         Zhruba v polovině workshopu půjdeme na oběd nebo si jej objednáme. Konkrétní formu budeme volit v den konání workshopu dle vývoje a po domluvě se všemi účastníky.
-        
+
         To, že se název workshopu jmenuje Blog podle Django Girls neznamená, že není přístupný mužům, naopak, muži jsou vítáni.
-        
+
         Těšíme se na vás!
