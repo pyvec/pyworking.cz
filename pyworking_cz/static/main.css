@@ -116,6 +116,7 @@ button.btn {
 }
 
 button.btn.btn-show-more-events,
+.btn.btn-subscribe,
 .btn.btn-back {
   color: #c01;
   border-color: #c01;
