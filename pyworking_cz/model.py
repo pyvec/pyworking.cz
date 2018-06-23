@@ -44,7 +44,7 @@ def _load_event(event_path):
     Load event data from YAML file
     '''
     try:
-        data = yaml.load(event_path.read_text())['event']
+        data = yaml.load(event_path.read_text(encoding='utf-8'))['event']
         return {
             'title': data['title'],
             'location': data.get('location'),
