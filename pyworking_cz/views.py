@@ -1,5 +1,6 @@
 from datetime import date, datetime
-from flask import Blueprint, Response, abort, redirect, render_template, url_for, request
+from flask import Blueprint, Response, current_app, abort, redirect, render_template, url_for, request, send_from_directory
+from pathlib import Path
 import pytz
 
 from .meetup_com import retrieve_workshop_events
@@ -18,6 +19,14 @@ def index():
         upcoming_session_events=retrieve_workshop_events(),
         upcoming_workshop_events=[ev for ev in events if ev['date'] >= today],
         past_workshop_events=[ev for ev in events if ev['date'] < today])
+
+
+@bp.route('/favicon.ico')
+def favicon():
+    return send_from_directory(
+        Path(current_app.root_path) / 'static',
+        'favicon/favicon.ico',
+        mimetype='image/vnd.microsoft.icon')
 
 
 @bp.route('/workshops/')
