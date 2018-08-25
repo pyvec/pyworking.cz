@@ -11,9 +11,11 @@ setup(
     packages=find_packages(exclude=['contrib', 'doc*', 'tests']),
     install_requires=[
         'flask',
+        'ics',
         'pyyaml',
         'markdown',
         'markdown-urlize',
+        'pytz',
         'requests',
     ],
     extras_require={

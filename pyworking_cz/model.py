@@ -1,7 +1,8 @@
-from datetime import date
+from datetime import date, datetime, time
 import logging
 import os
 from pathlib import Path
+import pytz
 import re
 import yaml
 
@@ -49,7 +50,7 @@ def _load_event(event_path):
             'title': data['title'],
             'location': data.get('location'),
             'city': data.get('city') or get_city_from_location(data.get('location')),
-            'date': _check_date(data['date']) if data.get('date') else None,
+            'date': fix_event_date(data['date']) if data.get('date') else None,
             'description_html': markdown_to_html(data['description']) if data.get('description') else None,
             'authors': data.get('authors'),
             'slug': event_path.with_suffix('').name,
@@ -68,10 +69,12 @@ def get_city_from_location(location):
     return None
 
 
-def _check_date(value):
-    if isinstance(value, date):
-        return value
-    else:
+def fix_event_date(dt):
+    if not isinstance(dt, date):
+        raise Exception('Not a date: {!r}'.format(dt))
+    dt = datetime.combine(dt, time(9, 0))
+    dt = pytz.timezone('Europe/Prague').localize(dt)
+    return dt
+
         # YAML umí date interpretovat sám, takže v tomhle případě se jedná zřejmě
         # o chybu nebo nějaký jiný formát zápisu
-        raise Exception('Not a date: {!r}'.format(value))

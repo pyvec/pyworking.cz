@@ -1,5 +1,6 @@
 from datetime import date, datetime
-from flask import Blueprint, abort, redirect, render_template, url_for
+from flask import Blueprint, Response, abort, redirect, render_template, url_for, request
+import pytz
 
 from .meetup_com import retrieve_workshop_events
 from .model import load_events
@@ -11,7 +12,7 @@ bp = Blueprint('views', __name__)
 @bp.route('/')
 def index():
     events = load_events()
-    today = datetime.now().date()
+    today = pytz.utc.localize(datetime.utcnow())
     return render_template('index.html',
         format_date_cs=format_date_cs,
         upcoming_session_events=retrieve_workshop_events(),
@@ -35,6 +36,29 @@ def workshop_detail(slug):
     return render_template('workshop.html',
         event=event,
         format_date_cs=format_date_cs)
+
+
+@bp.route('/workshops.ics')
+def workshops_ical():
+    import ics
+    cal_events = []
+    for event in load_events():
+        try:
+            if not event['date']:
+                continue
+            cal_event = ics.Event(
+                name=event['title'],
+                location=event['location'],
+                begin=event['date'].isoformat(),
+                uid='{}@pyworking.cz'.format(event['slug']),
+            )
+            #cal_event.geo = '{}:{}'.format(geo_obj.latitude, geo_obj.longitude)
+            cal_events.append(cal_event)
+        except Exception as e:
+            raise Exception('Failed to export event: {!r}; event: {}'.format(e, event)) from e
+    return Response(ics.Calendar(
+        events=cal_events),
+        mimetype='text/plain' if request.args.get('debug') else 'text/calendar')
 
 
 def find_event_by_slug(events, slug):
