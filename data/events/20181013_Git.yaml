@@ -1,0 +1,42 @@
+event:
+    title: GitWorking
+    date: 2018-10-13
+    location: Barclays, Na Pankráci 1683/127, 140 00 Praha
+    authors: Radka Planková a Eliška Doktorová
+    description: |
+
+        **GitWorking: Git pro začátečnice a začátečníky, kteří už si osahali Python**
+
+        Umíš základy Pythonu (například ze začátečnického kurzu PyLadies), ale chceš se přiučit něco o gitu?
+
+        Znalosti z lekce na git z kurzu PyLadies už se ti vypařily z hlavy a/nebo se chceš dozvědět víc?
+
+        Přihlašovací formulář: https://goo.gl/forms/DMBfFiUPcB6LPltX2
+
+        Tento workshop je pro všechny, kteří jsou pokročilejší začátečníci - umí pracovat s příkazovou řádkou zhruba na úrovni absolventek začátečnického kurzu PyLadies, vědí, jak fungují soubory na počítači a že se do nich píše zdrojový kód. Budeme používat Python, ale o programování tolik nepůjde.
+
+        Co probereme:
+
+        * a co že to je ten git a proč to potřebuješ?
+        * jaký je rozdíl mezi gitem a GitHubem, co je to open-source
+        * základní opakování z PyLadies: commit, pull, push, clone, init...
+        * co do gitu patří a nepatří a jak s tím souvisí virtuální prostředí, co je to projekt?
+        * základy práce s GitHubem
+        * jak udělat open-source projekt srozumitelnější pro ostatní: README, LICENSE
+        * práce s větvemi (budou obrázky zvířátek)
+        * práce s cizími větvemi (forky, Pull Requesty)
+
+        Co mít v notebooku před workshopem již nainstalováno:
+
+        * Python 3 https://naucse.python.cz/course/pyladies/beginners/install/
+        * editor (Atom, Idle, Mu...) https://naucse.python.cz/course/pyladies/beginners/install-editor/
+        * git https://naucse.python.cz/course/pyladies/git/install/
+        * účet na GitHub.com https://github.com/join
+
+        Workshop je zdarma, budeme však rádi, pokud donesete drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžete s ostatními podělit.
+
+        Workshop se bude konat v Barclays (Na Pankráci 1683/127, 14000 Praha, budova Gemini A, 2. patro).
+
+        Těšíme se na vás!
+
+        Facebook: https://www.facebook.com/events/308482903217561/
