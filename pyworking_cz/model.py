@@ -71,10 +71,10 @@ def get_city_from_location(location):
 
 def fix_event_date(dt):
     if not isinstance(dt, date):
+        # YAML umí date interpretovat sám, takže v tomhle případě se jedná zřejmě
+        # o chybu nebo nějaký jiný formát zápisu
         raise Exception('Not a date: {!r}'.format(dt))
     dt = datetime.combine(dt, time(9, 0))
     dt = pytz.timezone('Europe/Prague').localize(dt)
     return dt
 
-        # YAML umí date interpretovat sám, takže v tomhle případě se jedná zřejmě
-        # o chybu nebo nějaký jiný formát zápisu
