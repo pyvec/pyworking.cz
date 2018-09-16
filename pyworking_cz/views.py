@@ -60,6 +60,7 @@ def workshops_ical():
                 location=event['location'],
                 begin=event['date'].isoformat(),
                 uid='{}@pyworking.cz'.format(event['slug']),
+                url='https://pyworking.cz' + event['url_path'],
             )
             #cal_event.geo = '{}:{}'.format(geo_obj.latitude, geo_obj.longitude)
             cal_events.append(cal_event)

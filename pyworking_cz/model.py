@@ -46,6 +46,7 @@ def _load_event(event_path):
     '''
     try:
         data = yaml.load(event_path.read_text(encoding='utf-8'))['event']
+        slug = event_path.with_suffix('').name
         return {
             'title': data['title'],
             'location': data.get('location'),
@@ -53,7 +54,8 @@ def _load_event(event_path):
             'date': fix_event_date(data['date']) if data.get('date') else None,
             'description_html': markdown_to_html(data['description']) if data.get('description') else None,
             'authors': data.get('authors'),
-            'slug': event_path.with_suffix('').name,
+            'slug': slug,
+            'url_path': '/workshops/' + slug,
         }
     except Exception as e:
         raise Exception('Failed to load event from {}: {}'.format(event_path, e)) from e
@@ -77,4 +79,3 @@ def fix_event_date(dt):
     dt = datetime.combine(dt, time(9, 0))
     dt = pytz.timezone('Europe/Prague').localize(dt)
     return dt
-
