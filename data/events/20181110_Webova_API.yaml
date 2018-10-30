@@ -1,0 +1,38 @@
+event:
+    title: Webová API
+    date: 2018-11-10
+    location: Apiary, Pernerova 49, Praha 8 - Karlín
+    authors: Honza Javorek
+    description: |
+        Workshop pro pokročilé začátečnice a začátečníky, které zajímá, co jsou webová API, jak je lze používat a jak je tvořit.
+
+        Přihlašovací formulář: https://goo.gl/forms/SQVCuxwPG6rKxBJh1
+
+        V ideálním případě bude workshop následovat materiály Co je API? (https://cojeapi.readthedocs.io/cs/latest/), které by tou dobou mohly být již sepsané.
+
+        A co se dozvíte?
+
+        - Vysvětlení co je API
+        - Vysvětlení pojmů klient a server
+        - Úvod do dalších pojmů jako HTTP, REST, XML, JSON, atd.
+        - Tvorba klienta
+        - Tvorba serveru
+
+        Co je nutné umět:
+
+        - Python na úrovni začátečnického kurzu (http://naucse.python.cz/course/pyladies/)
+
+        Co se hodí umět:
+
+        - Základy toho, jak fungují internet a webové stránky (https://tutorial.djangogirls.org/en/how_the_internet_works/)
+
+        Co mít připraveno:
+
+        - Nainstalovaný a funkční program curl (https://curl.haxx.se/), a to především pokud máte Windows
+        - Možná budeme potřebovat nainstalovaný a funkční program Now (https://zeit.co/download)
+
+        Workshop je zdarma, budeme však rádi, pokud donesete drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžete s ostatními podělit.
+
+        Těšíme se na vás!
+
+        Facebook event: https://www.facebook.com/events/462772517546969/
