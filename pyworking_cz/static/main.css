@@ -18,6 +18,10 @@ body {
   text-decoration: none;
 }
 
+.site-lead-text b {
+  font-weight: 400;
+}
+
 h2.ws-title {
   font-family: Cabin;
   font-weight: 700;
