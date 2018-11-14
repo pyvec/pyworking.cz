@@ -1,0 +1,63 @@
+event:
+  title: Testování
+  date: 2018-12-08
+  location: Barclays, Na Pankráci 1683/127, 140 00 Praha
+  description: |
+    Workshop je určen pro pokročilé začátečnice a začátečníky, které zajímá testování webových aplikací pomocí Pythonu.
+
+    _Netrapte sebe nebo svoje kolegy rutinním manuálním proklikáváním. Testy základních funkcí webové aplikace se dají automatizovat během pár hodin a pak už ji budou proklikávat za vás - třeba každou hodinu._
+
+    Co se dozvíte
+    -------------
+
+    - základy testování webových aplikací
+    - jaké technologie se dají použít pro automatizaci testování webových aplikací v kombinaci s Pythonem a jak je nakonfigurovat
+
+    Co si vyzkoušíte
+    ----------------
+
+    - společně napíšeme pár testů webové aplikace
+    - pokud zbyde čas vytvoříte si jednoduchý test vámi zvolené webové aplikace
+
+    Co je nutné umět
+    ----------------
+
+    - Python na úrovni [začátečnického kurzu](https://naucse.python.cz/course/pyladies/)
+
+    Co se hodí umět
+    ---------------
+
+    - základy HTML a CSS (DOM a selektory)
+
+    Materiály
+    ---------
+
+    https://github.com/madlenkk/webtesting/
+
+    Co mít připraveno
+    -----------------
+
+    - účet na [Github](https://github.com/)
+
+    - editor např. [Atom](https://atom.io) - postup instalace na [Nauč se Python!](https://naucse.python.cz/course/pyladies/beginners/install-editor/)
+
+    - nainstalovaný [Python 3](http://python.org/) - postup instalace na [Nauč se Python!](http://naucse.python.cz/lessons/beginners/install/)
+
+    - nainstalovaný [git](https://git-scm.com/) - postup instalace na [Nauč se Python!](http://naucse.python.cz/lessons/git/install)
+
+    - nainstalovaný webový prohlížeč [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+
+    - nainstalovaný webový ovladač [Google Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+
+    *NOTE:* Webový ovladač musí být přidán do proměnné `PATH` - postup viz [Instalace webdriveru](https://github.com/madlenkk/webtesting#instalace-webdriveru)
+
+    <br>
+
+    Workshop je zdarma, budeme však rádi, pokud donesete drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžete s ostatními podělit.
+
+    Těšíme se na vás!
+
+    [Mapa](https://www.google.com/maps/place/Gemini+A,+140+00+Praha+4/@50.0521857,14.4379613,17z/data=!3m1!4b1!4m5!3m4!1s0x470b9475e335c6c3:0x2ac72caef2a73d2e!8m2!3d50.0521823!4d14.44015)
+
+    [PŘIHLÁSIT SE!](https://goo.gl/forms/uuRIoxts2mH1Yikz1)
+
