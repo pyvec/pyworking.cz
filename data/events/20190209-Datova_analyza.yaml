@@ -1,0 +1,21 @@
+event:
+    title: Datová analýza 
+    date: 2019-02-09
+    location: FI MUNI, Brno
+    authors: Lumír Balhar
+    description: |
+        
+        Pro velký zájem o tento workshop na podzim 2018 jsme se rozhodli jej zopakovat. První brněnský PyWorking letošního roku tedy bude opět zaměřen na analýzu dat.
+        
+        O co půjde?
+        
+        Každý zájemce o programování (v Pythonu) už někdy slyšel, že v něm lze udělat téměř vše. To je dáno hlavně počtem různých nástrojů a knihoven, které pro Python existují. My se společně podíváme na několik z nich, s jejichž pomocí vytvoříme líbivou datovou analýzu, kterou budeme moci rovnou z prohlížeče prezentovat na konferenci nebo poslat jako zprávu šéfovi.
+        
+        Analyzovat přitom nebudeme žádná nudná data o pronájmech bytů v Praze, ani o porodnosti na středním východě, ale podíváme se na staré známé Pokémony. Který typ pokémona je nejlepší? Byly  všechny generace stejně silné? Kolik jich vlastně je? Je nějaká souvislost mezi útokem a obranou? A co Pikachu? Byl to opravdu takový looser? Tohle a mnohem více společně vydolujeme z     jedné jednoduché tabulky.
+        
+        Workshop je vhodný pro ty, kdo umí Python zhruba na úrovni první poloviny začátečnického kurzu pro PyLadies (http://naucse.python.cz/course/pyladies/)
+        Krom znalosti, jak volat funkce a metody, je také třeba mít nainstalovaný Python a funkční virtuální prostředí.
+        
+        Workshop je zdarma.
+        
+        Přihlašovací formulář: https://goo.gl/forms/3FJRjBwLSNt9FSsZ2 
