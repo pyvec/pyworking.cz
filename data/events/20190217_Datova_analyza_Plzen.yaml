@@ -5,11 +5,14 @@ event:
     authors: Tým PyLadies Plzeň 
     description: |
         Obsah workshopu:
+        
         1. Společná instalace a nastavení: Jupyter, Pandas a další knihovny
-        2. Základy používání Jupyter Notebooku ( https://jupyter.org/ )
-        3. Načtení, základní zpracování, třídění a filtrování dat pomocí Pandas ( https://pandas.pydata.org/ )
+        2. Základy používání Jupyter Notebooku (https://jupyter.org/)
+        3. Načtení, základní zpracování, třídění a filtrování dat pomocí Pandas (https://pandas.pydata.org/)
         4. Základní statistická analýza pomocí Pandas a Scipy
         5. Vizualizace dat pomocí Pandas, Matplolib a Seaborn
+        
+        Místo konání: TechHeaven HUB 2, Cukrovarská 20, Plzeň (https://mapy.cz/s/3k5el)
         
         Registrační formulář: https://goo.gl/dvGJru
         
@@ -23,5 +26,7 @@ event:
         (Můžeš si připomenout třeba zde https://naucse.python.cz/2018/pyladies-plzen-podzim/)
         
         Těšíme se na společnou akci!
+        
         Tým Plzeňských PyLadies
+        
         plzen@pyladies.cz        
