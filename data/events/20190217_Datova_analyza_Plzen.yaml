@@ -1,7 +1,27 @@
 event:
-    title: Datová analýza 
+    title: Datová analýza s využitím Jupyter a Pandas 
     date: 2019-02-17
-    location: TechHeaven HUB 2, vedle DEPO2015, Cukrovarská 20, Plzeň
-    authors: Filip Vaculík
+    location: TechHeaven HUB 2, Cukrovarská 20, Plzeň, https://mapy.cz/s/3k5el
+    authors: Tým PyLadies Plzeň 
     description: |
-        TBD
+        Obsah workshopu:
+        1. Společná instalace a nastavení: Jupyter, Pandas a další knihovny
+        2. Základy používání Jupyter Notebooku ( https://jupyter.org/ )
+        3. Načtení, základní zpracování, třídění a filtrování dat pomocí Pandas ( https://pandas.pydata.org/ )
+        4. Základní statistická analýza pomocí Pandas a Scipy
+        5. Vizualizace dat pomocí Pandas, Matplolib a Seaborn
+        
+        Registrační formulář: https://goo.gl/dvGJru
+        
+        Workshop je zdarma, nikoliv bezcenný. Investujeme náš čas a energií.
+        Odměnou pro nás je pocit užitečnosti a smysluplnosti.
+        Odměnou pro vás je možnost, naučit se pracovat se silnými nástroji, které vám mohou zvýšit kvalifikaci a usnadnit práci.
+
+        Budete potřebovat počítač s funkční instalací Pythonu 3 a administrátorským přístupem.
+        Pokud by to pro vás byl problém, dejte vědět, několik notebooků můžeme zapůjčit.
+        Potřebné budou také znalosti Pythonu alespoň v rozsahu první poloviny začátečnického kurzu PyLadies 
+        (Můžeš si připomenout třeba zde https://naucse.python.cz/2018/pyladies-plzen-podzim/)
+        
+        Těšíme se na společnou akci!
+        Tým Plzeňských PyLadies
+        plzen@pyladies.cz        
