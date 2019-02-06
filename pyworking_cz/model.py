@@ -64,7 +64,7 @@ def _load_event(event_path):
 def get_city_from_location(location):
     if not location:
         return None
-    for k in 'Praha', 'Brno':
+    for k in 'Praha', 'Brno', 'Plzeň', 'Ostrava', 'Hradec Králové', 'Liberec':
         if k in location:
             return k
     logger.warning('Could not get city from location %r', location)
