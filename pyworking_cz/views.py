@@ -14,11 +14,13 @@ bp = Blueprint('views', __name__)
 def index():
     events = load_events()
     today = pytz.utc.localize(datetime.utcnow())
+    upcoming = [ev for ev in events if ev['date'] >= today]
+    past = [ev for ev in events if ev['date'] < today]
     return render_template('index.html',
         format_date_cs=format_date_cs,
         upcoming_session_events=retrieve_workshop_events(),
-        upcoming_workshop_events=[ev for ev in events if ev['date'] >= today],
-        past_workshop_events=[ev for ev in events if ev['date'] < today])
+        upcoming_workshop_events=sorted(upcoming, key=lambda ev: ev['date']),
+        past_workshop_events=past)
 
 
 @bp.route('/favicon.ico')
