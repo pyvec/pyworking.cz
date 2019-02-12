@@ -1,0 +1,49 @@
+event:
+    title: Testování webových aplikací
+    date: 2019-03-16
+    location: FI MUNI, místnost S505, Botanická 68a, Brno
+    description: |
+    
+        Workshop je určen pro pokročilé začátečnice a začátečníky, které zajímá testování webových aplikací pomocí Pythonu.
+        Netrapte sebe nebo svoje kolegy rutinním manuálním proklikáváním. Testy základních funkcí webové aplikace se dají automatizovat během pár hodin a pak už ji budou proklikávat za vás - třeba každou hodinu.
+        
+        **Co se dozvíte**
+        
+        - základy testování webových aplikací
+        - jaké technologie se dají použít pro automatizaci testování webových aplikací v kombinaci s Pythonem a jak je nakonfigurovat
+        
+        **Co si vyzkoušíte**
+        
+        - společně napíšeme pár testů webové aplikace
+        - pokud zbude čas, vytvoříte si jednoduchý test vámi zvolené webové aplikace
+        
+        **Co je nutné umět**
+        
+        - Python na úrovni [začátečnického kurzu PyLadies](https://naucse.python.cz/course/pyladies/)
+        
+        **Co se hodí umět**
+        
+        - základy HTML a CSS (DOM a selektory)
+        
+        **Materiály**
+        
+        https://github.com/madlenkk/webtesting/
+        
+        **Co mít připraveno**
+        
+        - účet na [Github](https://github.com/)
+        - editor např. [Atom](https://atom.io) - postup instalace na [Nauč se Python!](https://naucse.python.cz/course/pyladies/beginners/install-editor/)
+        - nainstalovaný [Python 3](http://python.org/) - postup instalace na [Nauč se Python!](http://naucse.python.cz/lessons/beginners/install/)
+        - nainstalovaný [git](https://git-scm.com/) - postup instalace na [Nauč se Python!](http://naucse.python.cz/lessons/git/install)
+        - nainstalovaný webový prohlížeč [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+        - nainstalovaný webový ovladač [Google Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+        
+        *NOTE:* Webový ovladač musí být přidán do proměnné `PATH` - postup viz [Instalace webdriveru](https://github.com/madlenkk/webtesting#instalace-webdriveru)
+        
+        Workshop je zdarma, budeme však rádi, pokud donesete drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžete s ostatními podělit.
+        
+        Kapacita workshopu je 20 účastníků.
+        
+        Těšíme se na vás!
+        
+        Přihlašovací formulář: https://goo.gl/forms/UErSLmuO8yTvSUcn1 
