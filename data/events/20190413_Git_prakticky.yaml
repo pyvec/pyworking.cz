@@ -12,8 +12,8 @@ Na začátku si krátce osvěžíme, co dělají nejčastější příkazy, a sp
 
         **Co si osvětlíme:**
         
-        - z čeho se skládá commit a proč je pokaždé jiný
-        - jak git organizuje commity v repozitáři
+	- z čeho se skládá commit a proč je pokaždé jiný
+	- jak git organizuje commity v repozitáři
 	- co je to větev z pohledu gitu
 	- zvyklosti při používání gitu
         
