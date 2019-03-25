@@ -1,0 +1,38 @@
+event:
+    title: Git prakticky
+    date: 2019-04-13
+    location: FI MUNI, místnost S505, Botanická 68a, Brno
+    description: |
+    
+        V rámci některých kurzů PyLadies bývá git nakousnutý, ale zpravidla jen lehce. V tomto celodenním workshopu se v něm budeme vrtat podrobněji. Nebudeme tentokrát psát kód v Pythonu, ale v příkazové řádce. Workshop je určen pro každého, kdo s gitem už malinko pracoval, ale moc si spolu ještě nerozumí.
+
+Pokud se se v repozitáři něco porouchalo a nevíš, co s tím, dosavadním definitivním řešením bylo zkopírování změněných souborů bokem a naklonování čistého repozitáře znova. Tomu se vyhneme a místo toho si vysvětlíme, co se děje a jak z toho ven.
+
+Na začátku si krátce osvěžíme, co dělají nejčastější příkazy, a spolu na ně navážeme dál.
+
+        **Co si osvětlíme:**
+        
+        - z čeho se skládá commit a proč je pokaždé jiný
+        - jak git organizuje commity v repozitáři
+	- co je to větev z pohledu gitu
+	- zvyklosti při používání gitu
+        
+        **Co si vyzkoušíme:**
+        
+	- různé způsoby přesouvání commitů v rámci repozitáře
+	- jak vznikají konflikty a jak na ně
+	- jak modifikovat historii a na co si přitom dát pozor
+	- jak si trochu zkrátit psaní nejčastějších příkazů
+	* podle času:
+	-   jak probíhá kooperace více lidí na stejném projektu na GitHubu
+	-   jak se dá různými způsoby odkázat na další commity
+        
+        **Co je třeba vědět/umět dopředu:**
+        
+	- co dělají nejpoužívanější příkazy `status`, `add`, `commit`. Pokud nevíš, projdi si [materiály](https://naucse.python.cz/course/pyladies/git/basics/)
+	- mít nainstalovaný `git`, návod [zde](https://naucse.python.cz/course/pyladies/git/install/)
+	- účet na [GitHubu](https://github.com/)
+        
+        Workshop je zdarma, budeme však rádi, pokud donesete drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžete s ostatními podělit.    
+	
+	Kapacita workshopu je 20 účastníků. Pokud se chceš zúčastnit, vyplň přihlašovací formulář: https://forms.gle/gjS5RgX77ih7M3AZ8  
