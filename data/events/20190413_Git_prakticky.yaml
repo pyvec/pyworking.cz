@@ -4,7 +4,9 @@ event:
     location: FI MUNI, místnost S505, Botanická 68a, Brno
     description: |
     
-        V rámci některých kurzů PyLadies bývá git nakousnutý, ale zpravidla jen lehce. V tomto celodenním workshopu se v něm budeme vrtat podrobněji. Nebudeme tentokrát psát kód v Pythonu, ale v příkazové řádce. Workshop je určen pro každého, kdo s gitem už malinko pracoval, ale moc si spolu ještě nerozumí.
+        V rámci některých kurzů PyLadies bývá git nakousnutý, ale zpravidla jen lehce. V tomto celodenním workshopu se v něm budeme vrtat podrobněji. Nebudeme tentokrát psát kód v Pythonu, ale v příkazové řádce.
+        
+        Workshop je určen pro každého, kdo s gitem už malinko pracoval, ale moc si spolu ještě nerozumí.
 
         Pokud se se v repozitáři něco porouchalo a nevíš, co s tím, dosavadním definitivním řešením bylo zkopírování změněných souborů bokem a naklonování čistého repozitáře znova. Tomu se vyhneme a místo toho si vysvětlíme, co se děje a jak z toho ven.
 
