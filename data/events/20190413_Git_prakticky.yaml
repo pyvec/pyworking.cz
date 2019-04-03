@@ -33,6 +33,7 @@ event:
         
         - co dělají nejpoužívanější příkazy `status`, `add`, `commit`. Pokud nevíš, projdi si [materiály](https://naucse.python.cz/course/pyladies/git/basics/)
         - mít nainstalovaný `git`, návod [zde](https://naucse.python.cz/course/pyladies/git/install/)
+        - mít nainstalovaný `meld`, ke stažení [zde](http://meldmerge.org/)
         - účet na [GitHubu](https://github.com/)
 
         Workshop je zdarma, budeme však rádi, pokud donesete drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžete s ostatními podělit.
