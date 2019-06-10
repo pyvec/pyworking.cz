@@ -1,0 +1,33 @@
+event:
+    title: GUI s PyQT 
+    date: 2019-06-29
+    location: FI MUNI, místnost S505, Botanická 68a, Brno
+    description: |
+    
+        Příkazová řádka je mocná věc, ale neprogramátorům příliš nevoní.
+        Často je potřeba funkcionalitu zabalit do přívětivějšího uživatelského rozhraní: webovou/mobilní aplikaci nebo „klikátko“ s okýnem, menu a textovými políčky.
+        Dnes se zaměříme na druhou variantu a ukážeme si, jak vytvářet [GUI](https://cs.wikipedia.org/wiki/Grafick%C3%A9_u%C5%BEivatelsk%C3%A9_rozhran%C3%AD) programy pomocí knihovny PyQT.
+
+
+        Zbude-li čas, podíváme se jak výsledný program zabalit jako `.exe` pro Windows,
+        aby ho mohli použít i lidi, kteří nemají nainstalovaný Python.
+        (Pro macOS zkusíme ekvivalent, ale bohužel nemáme vyzkoušený postup; pro Linux, kde Python většinou už je, jen odkážeme na další možnosti.)
+        
+        
+        ---
+        
+        Je třeba znát Python na úrovni [začátečnického kurzu](https://naucse.python.cz/course/pyladies/).
+        Některé varianty kurzu neučí Git. Je-li to je tvůj případ, tak si:
+
+        * Nainstaluj a nastav Git podle materiálů: https://naucse.python.cz/course/pyladies/git/install/
+        * Založ účet na GitHubu (a zapamatuj heslo!): https://github.com/
+
+        Navíc si doma do virtuálního prostředí nainstaluj tyto knihovny:
+
+            `python -m pip install pyinstaller PyQt5 importlib-resources travis-encrypt`
+
+        (V případě problémů se domluv a přijď s předstihem.)
+
+        Workshop je zdarma, budeme však rádi, pokud donesete drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžete s ostatními podělit.
+
+        Chceš-li se zúčastnit, vyplň registrační formulář: https://forms.gle/CTLrGCcNJLXsgFTn8
