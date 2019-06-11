@@ -24,7 +24,7 @@ event:
 
         Navíc si doma do virtuálního prostředí nainstaluj tyto knihovny:
 
-            `python -m pip install pyinstaller PyQt5 importlib-resources travis-encrypt`
+            python -m pip install pyinstaller PyQt5 importlib-resources travis-encrypt
 
         (V případě problémů se domluv a přijď s předstihem.)
 
