@@ -5,7 +5,7 @@ from time import monotonic
 
 
 meetup_events_url = 'https://api.meetup.com/pyworking/events?photo-host=public'
-meetup_events_url += '&sig_id=128500682&sig=b26c6629a1fa98db4e7746875e5d23218d912b91'
+#meetup_events_url += '&sig_id=128500682&sig=b26c6629a1fa98db4e7746875e5d23218d912b91'
 # ^^^ signed request by Petr M.
 
 logger = logging.getLogger(__name__)
