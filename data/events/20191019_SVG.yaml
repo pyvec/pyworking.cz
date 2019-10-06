@@ -1,0 +1,28 @@
+event:
+    title: SVG
+    date: 2019-10-19
+    location: Brno
+    description: |
+    
+        Ukážeme si jak kreslit vektorovou grafiku a diagramy pomocí editoru Inkscape,
+        jak výsledný SVG obrázek vypadá „zevnitř“ a jak ho měnit pomocí Pythonu.
+        
+        
+        ---
+        
+        Je třeba znát Python na úrovni [začátečnického kurzu](https://naucse.python.cz/course/pyladies/).
+
+        Nainstaluj si:
+    
+        * Editor Inkscape – https://inkscape.org/ 
+        * Python 3.6+ (a virtuální prostřední)
+
+        Navíc si doma do virtuálního prostředí nainstaluj tyto knihovny:
+
+            (venv)$ python -m pip install lxml
+
+        (V případě problémů se domluv a přijď s předstihem.)
+
+        Workshop je zdarma, budeme však rádi, pokud doneseš drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžeš podělit s ostatními.
+
+        Chceš-li se zúčastnit, vyplň registrační formulář: https://forms.gle/AXkNxjVF6uT1Xgpw7
