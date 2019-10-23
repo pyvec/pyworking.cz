@@ -1,0 +1,9 @@
+event:
+    title: Databáze a SQL
+    date: 2017-11-09
+    location: SUSE Linux, Praha - Karlín
+    authors: Petr Messner
+    description: |
+        Materiály: Co je to databáze, relační databáze, proč se používá a jak ji použít z Pythonu.
+        
+        *Přihlašování:* https://forms.gle/yUPR4Po6H2k5Ymdc9
