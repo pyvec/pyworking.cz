@@ -1,0 +1,35 @@
+event:
+    title: Práce s XLSX tabulkami
+    date: 2019-11-16
+    location: Brno
+    description: |
+    
+        Práce s tabulkovým editorem může často přerůst do rutinního kopírování údajů z jednoho nebo z několika zdrojů a opakovaní úpravy formátování, které se změnilo kopírováním, nebo je potřeba jej změnit například kvůli typu dat, počtu řádků i sloupců. Ať už tak nebo tak, většinou se jedná o nezáživnou činnost, kterou můžeme nahradit automatickým zpracováním.
+
+        Naučíme se pomocí knihoven Pythonu vytvářet soubory specifikace Office Open XML (OOXML), do kterých se řadí i nejpoužívanější soubory s koncovkou .xlsx.            
+        
+        ---
+        
+        Je třeba znát Python na úrovni [začátečnického kurzu](https://naucse.python.cz/course/pyladies/).
+
+        
+        K práci budeme používat:
+ 
+        * Nainstalovaný Git [návod zde](https://naucse.python.cz/course/pyladies/git/install/)
+        * Tabulkový editor (Microsoft Excel, LibreOffice nebo jiný)
+        * Textový editor 
+        * Python 3.6+ (a virtuální prostřední)
+
+        Nainstaluj si do virtuálního prostředí potřebné knihovnu následujícím příkazem:
+
+            (venv)$ python -m pip install PyExcelerate openpyxl
+        Budeš potřebovat:
+        
+        * Počítač s právy na instalaci
+        * Myš
+
+        V případě problémů se domluv a přijď s předstihem.
+
+        Workshop je zdarma, budeme však rádi, pokud doneseš drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžeš podělit s ostatními.
+
+        Chceš-li se zúčastnit, vyplň registrační formulář: https://forms.gle/hLxDNeNaZVeJDA3J7
