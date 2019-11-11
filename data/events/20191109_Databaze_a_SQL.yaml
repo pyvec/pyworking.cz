@@ -6,7 +6,5 @@ event:
     description: |
         Co je to databáze, relační databáze, proč se používá a jak ji použít z Pythonu.
         
-        ~*Přihlašování:* https://forms.gle/yUPR4Po6H2k5Ymdc9~
-        
         Materiály: https://github.com/pyvec/pyworking-materials/tree/master/191109_SQL
      
