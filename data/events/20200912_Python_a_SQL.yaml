@@ -1,0 +1,31 @@
+event:
+    title: Python a SQL
+    date: 2020-09-12
+    location: Brno
+    description: |
+    
+        Při práci s daty dříve či později narazíme na potřebu ukládat data tak, aby v nich bylo možné efektivně vyhledávat, jednoduše je přidávat, mazat či měnit. Jako ideální se nabízí databáze, se kterou se domluvíme pomocí strukturovaného dotazovacího jazyka (Structured Query Language) neboli SQL. 
+        Na workshopu si nejdříve řekneme něco o teorii databází, a následně si ukážeme a vyzkoušíme pomocí spojení SQL a Pythonu databázi založit, vytvořit zde několik tabulek, naplnit je daty a následně z nich data zase číst.
+        Python nám bude sloužit jako prostředník pro předávání dotazů jazyka SQL, které se budeme učit vytvářet.
+
+
+        **Minimální předpoklady:**
+        Dokončený základní kurz nebo mírně pokročilá úroveň
+
+
+        **Budeš potřebovat:**
+            - Počítač s právy na instalaci
+            - Myš
+            - Nainstalovaný DB browser for SQLite https://sqlitebrowser.org/
+
+        Workshop je zdarma. Otevřen všem zájemcům, co splňují minimální předpoklady. 
+        Počet míst je omezen, proto neváhej s odesláním přihlášky.
+
+        Na místě bude k dispozici kuchyňka s lednicí, rychlovarnou konvicí a mikrovlnkou. Nádobí si raději vezmi vlastní.
+        Oběd vyřešíme podle domluvy na místě, buď společnou návštěvou restaurace v okolí nebo hromadnou objednávkou.
+        Budeš-li chtít, budeme rádi za jakékoliv občerstvení, o které se můžeš podělit s ostatními. :) 
+
+        Pokud dojde k jakékoliv změně v souvislosti s koronavirem, dáme Ti zavčasu vědět. 
+        Zároveň prosíme, nebudeš-li se jakkoliv cítit dobře nebo v době před konáním kurzu dojdeš do kontaktu s někým pozitivním, buď ohleduplná/ý a na kurz nechoď. Luděk bude dané téma určitě ještě opakovat.
+        
+        Chceš-li se zúčastnit, vyplň registrační formulář: https://forms.gle/4nzUGX1cSRSs3qog6 
