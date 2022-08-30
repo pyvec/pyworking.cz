@@ -1,0 +1,27 @@
+event:
+    title: Automatické testy
+    date: 2022-06-26
+    location: Brno
+    description: |
+    
+        Umíš základy Pythonu a chceš se dozvědět víc o automatickém testování? Pak jsi na správném místě.
+        Kontrola, že program dělá to, co má, je součástí programování. V projektech začátečnického kurzu si to zpravidla ověřuješ tím, že program spustíš. Větší programy se manuálně kontrolují jen těžko, a tak existují nástroje, které umí spouštět a vyhodnocovat programy za nás.
+
+        Někteří z vás se připravují do role softwarového testera. Na tomto workshopu se však zaměříme na to, jaké nástroje má k dispozici vývojářka či vývojář, kteří chtějí otestovat svůj kód, a naučíme se psát jednotkové testy (eng. unit testy). Softwaroví testeří obvykle vstupují na scénu, až když je program vývojařem označen za "hotový" - touto fází se ale zabývat nebudeme. Na worskhopu tedy získáš přehled, co a jakým způsobem dělají v oblasti testování vývojaři, což se v testerské praxi rozhodně hodí. Pokud ale hledáš přímo dovednosti k uplatnění v praxi softwarového testera, na tomto workshopu je pravděpodobně nenajdeš.
+
+        Během workshopu si ukážeme, jak pracovat s oblíbenou knihovnou pytest, jaké jsou druhy testování, jak se píšou automatické testy, a jak psát programy, aby se daly dobře testovat.
+        
+        ---
+        
+        Je třeba znát Python zhruba na úrovni [začátečnického kurzu](https://naucse.python.cz/course/pyladies/).
+        
+        Budeš potřebovat:
+        
+        * Počítač s právy na instalaci
+        * Nainstalovaný Python 
+        * Nainstalovaný oblíbený editor textu
+
+        V případě problémů se domluv a přijď s předstihem.
+
+        Workshop je zdarma a je otevřen všem zájemcům, co splňují minimální předpoklady.
+        Přihlašování již bylo uzavřeno.
