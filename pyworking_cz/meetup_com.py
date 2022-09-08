@@ -37,7 +37,7 @@ def retrieve_workshop_events():
             'url': event['link'],
             'title': event['name'],
             'date': parse_meetup_com_event_date(event),
-            'city_cs': city_to_cs(event['venue']['city']),
+            'city_cs': city_to_cs(event['group']['localized_location']),
         }
         for event in events
     ]
@@ -52,6 +52,6 @@ def parse_meetup_com_event_date(event):
 
 
 def city_to_cs(name):
-    if name == 'Prague':
+    if name.startswith('Prague'):
         return 'Praha'
     return name
