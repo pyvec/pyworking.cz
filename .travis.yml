@@ -1,9 +1,0 @@
-language: "python"
-dist: "precise"
-python:
-    - "3.6"
-cache: "pip"
-install:
-    - "pip install .[tests]"
-script:
-    - "DATA_DIR=$PWD/data pytest -v"
