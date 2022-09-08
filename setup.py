@@ -10,11 +10,12 @@ setup(
     license='MIT',
     packages=find_packages(exclude=['contrib', 'doc*', 'tests']),
     install_requires=[
-        'flask',
+        'flask<2',  # ImportError: cannot import name 'Markup' from 'jinja2'
         'ics',
         'pyyaml',
-        'markdown',
+        'markdown<3.4',  # https://github.com/r0wb0t/markdown-urlize/pull/17
         'markdown-urlize',
+        'markupsafe<2.1.0',  # ImportError: cannot import name 'soft_unicode' from 'markupsafe'
         'pytz',
         'requests',
     ],
