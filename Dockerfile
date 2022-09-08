@@ -1,6 +1,4 @@
-FROM python:3.6-alpine
-
-MAINTAINER Petr Messner
+FROM python:3.10-bullseye
 
 ENV PYTHONUNBUFFERED=1 DATA_DIR=/app/data
 
@@ -15,7 +13,7 @@ RUN /venv/bin/pip install /app
 
 COPY data /app/data
 
-RUN adduser -S app
+RUN adduser --system app
 USER app
 
 EXPOSE 8000
