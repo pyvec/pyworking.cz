@@ -45,7 +45,7 @@ def _load_event(event_path):
     Load event data from YAML file
     '''
     try:
-        data = yaml.load(event_path.read_text(encoding='utf-8'))['event']
+        data = yaml.safe_load(event_path.read_text(encoding='utf-8'))['event']
         slug = event_path.with_suffix('').name
         return {
             'title': data['title'],
