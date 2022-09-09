@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Git prakticky &ndash; PyWorking</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/main.css?20180202">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/static/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="Git prakticky" />
+    <meta property="og:image" content="https://pyworking.cz/static/pyworking-logo.png" />
+  </head>
+  <body>
+    <div class="container">
+
+      
+
+  <div class="site-title" style='text-align: center; margin-top: 80px'>
+    <a href='/'>
+      <span style="color: #3776ab">Py</span><span style="color: #eb0">Working</span>
+    </a>
+  </div>
+
+  
+
+  <br>
+
+  <div class='row'>
+
+    <div class='col-md-8 offset-md-2'>
+
+      <h1 class='event-title center'><span>Git prakticky</span></h1>
+
+      <p class='center'>
+        <span class='event-type' style="margin-left: 0">
+          Workshop
+        </span>
+        <span class='event-date'>
+          <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+          Sobota 13. dubna 2019
+        </span>
+        <span class='event-location'>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          Brno
+        </span>
+      </p>
+
+      <br>
+
+      <div class="event-description">
+        <p>V rámci některých kurzů PyLadies bývá git nakousnutý, ale zpravidla jen lehce. V&nbsp;tomto celodenním workshopu se v&nbsp;něm budeme vrtat podrobněji. Nebudeme tentokrát psát kód v&nbsp;Pythonu, ale v&nbsp;příkazové řádce.</p>
+<p>Workshop je určen pro každého, kdo s&nbsp;gitem už malinko pracoval, ale moc si spolu ještě nerozumí.</p>
+<p>Pokud se v&nbsp;repozitáři něco porouchalo a nevíš, co s&nbsp;tím, dosavadním definitivním řešením bylo zkopírování změněných souborů bokem a naklonování čistého repozitáře znova. Tomu se vyhneme a místo toho si vysvětlíme, co se děje a jak z&nbsp;toho ven.</p>
+<p>Na začátku si krátce osvěžíme, co dělají nejčastější příkazy, a spolu na ně navážeme dál.</p>
+<p><strong>Co si osvětlíme:</strong></p>
+<ul>
+<li>z čeho se skládá commit a proč je pokaždé jiný</li>
+<li>jak git organizuje commity v&nbsp;repozitáři</li>
+<li>co je to větev z&nbsp;pohledu gitu</li>
+<li>zvyklosti při používání gitu</li>
+</ul>
+<p><strong>Co si vyzkoušíme:</strong></p>
+<ul>
+<li>různé způsoby přesouvání commitů v&nbsp;rámci repozitáře</li>
+<li>jak vznikají konflikty a jak na ně</li>
+<li>jak modifikovat historii a na co si přitom dát pozor</li>
+<li>jak si trochu zkrátit psaní nejčastějších příkazů</li>
+<li>podle času:</li>
+<li>jak probíhá kooperace více lidí na stejném projektu na GitHubu</li>
+<li>jak se dá různými způsoby odkázat na další commity</li>
+</ul>
+<p><strong>Co je třeba vědět/umět dopředu:</strong></p>
+<ul>
+<li>co dělají nejpoužívanější příkazy <code>status</code>, <code>add</code>, <code>commit</code>. Pokud nevíš, projdi si <a href="https://naucse.python.cz/course/pyladies/git/basics/">materiály</a></li>
+<li>mít nainstalovaný <code>git</code>, návod <a href="https://naucse.python.cz/course/pyladies/git/install/">zde</a></li>
+<li>
+<p>mít nainstalovaný <code>meld</code> – na Linuxu bývá k dispozici v&nbsp;systému (pomocí <code>dnf</code>, <code>apt-get</code>, ...), pro Windows je ke stažení <a href="http://meldmerge.org/">zde</a></p>
+</li>
+<li>
+<p>účet na <a href="https://github.com/">GitHubu</a></p>
+</li>
+</ul>
+<p>Workshop je zdarma, budeme však rádi, pokud donesete drobné občerstvení (ideálně něco zdravého, ale nepohrdneme ani bábovkou:)), o které se můžete s&nbsp;ostatními podělit.</p>
+<p>Kapacita workshopu již byla naplněna, můžete se ale registrovat mezi náhradníky. Pokud by se nějaké místo uvolnilo, dáme vědět! <a href="https://forms.gle/gjS5RgX77ih7M3AZ8">https://forms.gle/gjS5RgX77ih7M3AZ8</a></p>
+      </div>
+
+      <br />
+      <br />
+
+      
+  <div id="disqus_thread"></div>
+  <script>
+
+  /**
+   * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+   */
+
+  var disqus_config = function () {
+    this.page.url = window.location.protocol + '//' + window.location.host + '/workshops/20190413_Git_prakticky';
+    this.page.identifier = '/workshops/20190413_Git_prakticky';
+  };
+
+  (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://pyworking.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+      <div class="center">
+        <a href='/' class="btn btn-back">Zpět na úvodní stránku</a>
+      </div>
+
+    </div>
+
+
+
+    </div>
+
+    <div id='github-ribbon'>
+      <a href="https://github.com/pyvec/pyworking.cz" target='_blank'><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

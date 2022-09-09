@@ -1,0 +1,164 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 5rem;
+}
+
+.site-title {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 700;
+    font-size: 49px;
+    color: #444;
+}
+
+.site-title a, .site-title a:hover {
+  text-decoration: none;
+}
+
+.site-lead-text b {
+  font-weight: 400;
+}
+
+h2.ws-title {
+  font-family: Cabin;
+  font-weight: 700;
+  font-size: 31px;
+  text-align: center;
+}
+
+h3.event-list-title {
+  color: #301;
+  font-weight: 500;
+  font-family: Roboto condensed, Roboto, sans-serif;
+  font-size: 16px;
+  margin-bottom: 0.8rem;
+}
+
+span.event-title {
+  font-weight: 600;
+}
+span.event-title,
+span.event-title a,
+h1.event-title {
+  color: #c01;
+}
+
+span.event-type,
+span.event-date,
+span.event-location {
+  margin-left: 1ex;
+  color: #808080;
+  font-size: 14px;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+a {
+    word-break: break-all;
+}
+
+p {
+    max-width: 50em;
+}
+
+p, ul {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+code {
+    background: inherit;
+    color: #333;
+    font-family: Terminus, monospace;
+    padding: 0 0.2em;
+    border: none;
+    border-radius: 0;
+}
+
+h1 {
+  font-family: Cabin;
+  font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2.event-list-section-title {
+    color: #301;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Roboto condensed, Roboto, sans-serif;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+button.btn {
+  font-size: 15px;
+}
+
+button.btn.btn-show-more-events,
+.btn.btn-subscribe,
+.btn.btn-back {
+  color: #c01;
+  border-color: #c01;
+  background-color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 3px 9px;
+}
+
+button.btn.btn-show-more-events:focus,
+.btn.btn-back:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(204, 0, 17, 0.25);
+}
+
+.event-info {
+    color: #663333;
+    margin: 12px 0;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.event-description {
+    font-size: 14px;
+}
+.event-description p {
+}
+.event-description strong {
+    font-weight: 500;
+}
+.event-description :first-child {
+    margin-top: 0;
+}
+
+ul.relaxed > li {
+  margin-top: 7px;
+}
+
+.center {
+  text-align: center;
+}

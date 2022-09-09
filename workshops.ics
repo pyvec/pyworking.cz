@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+LOCATION:Barclays\, Na Pankráci 1683/127\, 140 00 Praha
+DTSTART:20181013T070000Z
+SUMMARY:GitWorking
+UID:20181013_Git@pyworking.cz
+URL:https://pyworking.cz/workshops/20181013_Git
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:FI MUNI\, Brno
+DTSTART:20190209T080000Z
+SUMMARY:Datová analýza
+UID:20190209-Datova_analyza@pyworking.cz
+URL:https://pyworking.cz/workshops/20190209-Datova_analyza
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Apiary\, Pernerova 49\, Praha 8 - Karlín
+DTSTART:20181110T080000Z
+SUMMARY:Webová API
+UID:20181110_Webova_API@pyworking.cz
+URL:https://pyworking.cz/workshops/20181110_Webova_API
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Brno
+DTSTART:20220626T070000Z
+SUMMARY:Automatické testy
+UID:20220626_Automaticke_testy@pyworking.cz
+URL:https://pyworking.cz/workshops/20220626_Automaticke_testy
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:FI MUNI\, místnost S505\, Botanická 68a\, Brno
+DTSTART:20190316T080000Z
+SUMMARY:Testování webových aplikací
+UID:20190316-Webove_testovani@pyworking.cz
+URL:https://pyworking.cz/workshops/20190316-Webove_testovani
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Praha
+DTSTART:20170311T080000Z
+SUMMARY:Web frontend
+UID:20170311_Web_frontend@pyworking.cz
+URL:https://pyworking.cz/workshops/20170311_Web_frontend
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:FI MUNI\, Brno
+DTSTART:20180120T080000Z
+SUMMARY:Blog podle Django Girls
+UID:20180120_Brno_Django@pyworking.cz
+URL:https://pyworking.cz/workshops/20180120_Brno_Django
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Brno
+DTSTART:20191116T080000Z
+SUMMARY:Práce s XLSX tabulkami
+UID:20191116_Prace_s_XLSX_tabulkami@pyworking.cz
+URL:https://pyworking.cz/workshops/20191116_Prace_s_XLSX_tabulkami
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:FI MUNI\, místnost S505\, Botanická 68a\, Brno
+DTSTART:20190413T070000Z
+SUMMARY:Git prakticky
+UID:20190413_Git_prakticky@pyworking.cz
+URL:https://pyworking.cz/workshops/20190413_Git_prakticky
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:FI MUNI\, místnost S505\, Botanická 68a\, Brno
+DTSTART:20190629T070000Z
+SUMMARY:GUI s PyQT
+UID:20190629_gui_pyqt@pyworking.cz
+URL:https://pyworking.cz/workshops/20190629_gui_pyqt
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:MSD IT\, Praha - Smíchov
+DTSTART:20170408T070000Z
+SUMMARY:Databáze a SQL
+UID:20170408_Databaze_a_SQL@pyworking.cz
+URL:https://pyworking.cz/workshops/20170408_Databaze_a_SQL
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:TechHeaven HUB 2\, Cukrovarská 20\, Plzeň\, https://mapy.cz/s/3k5el
+DTSTART:20190217T080000Z
+SUMMARY:Datová analýza s využitím Jupyter a Pandas
+UID:20190217_Datova_analyza_Plzen@pyworking.cz
+URL:https://pyworking.cz/workshops/20190217_Datova_analyza_Plzen
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Apiary\, Pernerova 49\, Praha 8 - Karlín
+DTSTART:20180623T070000Z
+SUMMARY:Blog podle Django Girls
+UID:20180623_Django_blog@pyworking.cz
+URL:https://pyworking.cz/workshops/20180623_Django_blog
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:MSD IT\, Praha - Smíchov
+DTSTART:20170902T070000Z
+SUMMARY:Pandas
+UID:20170902_Pandas@pyworking.cz
+URL:https://pyworking.cz/workshops/20170902_Pandas
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Brno
+DTSTART:20191019T070000Z
+SUMMARY:SVG
+UID:20191019_SVG@pyworking.cz
+URL:https://pyworking.cz/workshops/20191019_SVG
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Apiary\, Praha - Karlín
+DTSTART:20180324T080000Z
+SUMMARY:Testování
+UID:20180324_Testovani@pyworking.cz
+URL:https://pyworking.cz/workshops/20180324_Testovani
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:MSD IT\, Praha - Smíchov
+DTSTART:20170520T070000Z
+SUMMARY:Internety
+UID:20170520_Internety@pyworking.cz
+URL:https://pyworking.cz/workshops/20170520_Internety
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Apiary\, Praha - Karlín
+DTSTART:20171209T080000Z
+SUMMARY:Distribuce pythonních programů
+UID:20171209_Python_distribuce_a_GUI@pyworking.cz
+URL:https://pyworking.cz/workshops/20171209_Python_distribuce_a_GUI
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Barclays\, Na Pankráci 1683/127\, 140 00 Praha
+DTSTART:20181208T080000Z
+SUMMARY:Testování
+UID:20181208_Testovani@pyworking.cz
+URL:https://pyworking.cz/workshops/20181208_Testovani
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:FI MUNI\, Brno
+DTSTART:20180617T070000Z
+SUMMARY:Soubory a barvy
+UID:20180617-Soubory_Barvy@pyworking.cz
+URL:https://pyworking.cz/workshops/20180617-Soubory_Barvy
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:FI MUNI\, Brno
+DTSTART:20181117T080000Z
+SUMMARY:Datová analýza
+UID:20181117_Datova_analyza@pyworking.cz
+URL:https://pyworking.cz/workshops/20181117_Datova_analyza
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Apiary\, Praha - Karlín
+DTSTART:20171014T070000Z
+SUMMARY:Django + Vue.js
+UID:20171014_Django_Vuejs@pyworking.cz
+URL:https://pyworking.cz/workshops/20171014_Django_Vuejs
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Praha
+DTSTART:20161210T080000Z
+SUMMARY:Django blog
+UID:20161210_Django_blog@pyworking.cz
+URL:https://pyworking.cz/workshops/20161210_Django_blog
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:SUSE Linux\, Praha - Karlín
+DTSTART:20191109T080000Z
+SUMMARY:Databáze a SQL
+UID:20191109_Databaze_a_SQL@pyworking.cz
+URL:https://pyworking.cz/workshops/20191109_Databaze_a_SQL
+END:VEVENT
+BEGIN:VEVENT
+LOCATION:Praha
+DTSTART:20170128T080000Z
+SUMMARY:Django Polls
+UID:20170128_Django_polls@pyworking.cz
+URL:https://pyworking.cz/workshops/20170128_Django_polls
+END:VEVENT
+END:VCALENDAR
