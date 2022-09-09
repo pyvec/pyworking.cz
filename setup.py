@@ -18,10 +18,10 @@ setup(
         'markupsafe<2.1.0',  # ImportError: cannot import name 'soft_unicode' from 'markupsafe'
         'pytz',
         'requests',
+        'Frozen-Flask',
     ],
     extras_require={
         'test': ['pytest'],
     },
     include_package_data=True,
-    #package_data={ 'pyworking-cz': ['pyworking_cz/templates/*', 'pyworking_cz/static/*'] },
 )

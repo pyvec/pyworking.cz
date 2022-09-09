@@ -1,3 +1,6 @@
+/build
+/dist
+/pyworking_cz/build
 __pycache__
 venv
 *.egg-info

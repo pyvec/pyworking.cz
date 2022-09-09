@@ -1,10 +1,16 @@
 python3=python3
 
+clean-build:
+	rm -rf pyworking_cz/build
+
 check: venv/packages-installed
 	venv/bin/pytest -v tests
 
 flask-run: venv/packages-installed
 	FLASK_APP=pyworking_cz FLASK_DEBUG=1 venv/bin/flask run
+
+freeze: clean-build venv/packages-installed
+	venv/bin/python freeze.py
 
 venv: venv/packages-installed
 

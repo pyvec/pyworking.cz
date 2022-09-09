@@ -36,7 +36,7 @@ def workshops_index():
     return redirect('/')
 
 
-@bp.route('/workshops/<slug>')
+@bp.route('/workshops/<slug>/')
 def workshop_detail(slug):
     events = load_events()
     event, exact = find_event_by_slug(events, slug)
