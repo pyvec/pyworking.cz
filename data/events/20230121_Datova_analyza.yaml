@@ -1,0 +1,35 @@
+event:
+    title: Datová analýza
+    date: 2023-01-21
+    location: Brno
+    description: |
+    
+        Pojďme společně odstartovat letošní akce brněnské PyLadies komunity prvním PyWorkingem roku 2023 s populárním tématem - **datová analýza**!
+        
+        KDY? **21. 1. 2023 10:00 - 18:00**
+        KDE?  **FI MUNI, Botanická 68a, Brno, místnost S505**
+        Lektorka: **Monika Bláhová**
+        
+        Ve workshopu se zaměříme na jednu z domén Pythonu a to datovou analýzu.
+        Naučíme se efektivně načítat, upravovat a analyzovat datové soubory tak, abyste se už nikdy nemuseli trápit s texťáky a excelovskými tabulkami. 
+        Nakoukneme trochu také trochu do oblasti statistiky a vizualizace dat v podobě grafů.
+        
+        ---
+        
+        Workshop je vhodný pro každého, kdo umí základy Pythonu, zhruba na úrovni první poloviny [začátečnického kurzu pro PyLadies](http://naucse.python.cz/course/pyladies/).
+        Je také třeba mít nainstalovaný Python a funkční virtuální prostředí. 
+        
+        
+        Mimo základní Python je třeba si předem nainstalovat i magické knihovny:
+        
+        * [Pandas](https://pypi.org/project/pandas/)
+        * [Numpy](https://pypi.org/project/numpy/)
+        * [Matplotlib](https://pypi.org/project/matplotlib/)
+        * [Jupyter](https://pypi.org/project/jupyter/)
+        
+        ---
+
+        Workshop je zdarma. Otevřen všem zájemcům, co splňují minimální předpoklady.
+        Počet míst je ale omezen, proto neváhej s odesláním přihlášky. 
+        Přihlašování uzavíráme 13. 1. 2023 ve 20:00.
+        [REGISTRUJ SE ZDE.](https://forms.gle/hJDaphKFH8dytC6N9)
