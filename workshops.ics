@@ -163,6 +163,13 @@ UID:20161210_Django_blog@pyworking.cz
 URL:https://pyworking.cz/workshops/20161210_Django_blog
 END:VEVENT
 BEGIN:VEVENT
+LOCATION:Brno
+DTSTART:20230121T080000Z
+SUMMARY:Datová analýza
+UID:20230121_Datova_analyza@pyworking.cz
+URL:https://pyworking.cz/workshops/20230121_Datova_analyza
+END:VEVENT
+BEGIN:VEVENT
 LOCATION:SUSE Linux\, Praha - Karlín
 DTSTART:20191109T080000Z
 SUMMARY:Databáze a SQL
